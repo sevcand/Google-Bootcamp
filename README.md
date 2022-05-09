@@ -50,5 +50,6 @@ Here, you can find the [Miro Scrum Board](https://miro.com/app/board/uXjVO2v4jX0
 * **Sprint Notes:** Story points and user stories have been explained product backlog entries. The details could be found in full entry mode.
 *  **Possible Sprint Completion:** 70 Points
 *  **Backlog Orgnization and Story Choices:** Product Backlog is organized to detail every feature that is predicted to be implemented to the product by the end of the 3rd Sprint. Stories were based on how the product could be made more appealing to the user with graphics, animation, asset quality and so on.
-*  In this first sprint, Daily Scrums were conducted on 3 seperate channels(ClickUp Chat, Whatsapp and Slack). From now on, they will be conducted only on Slack, barring any emergencies. The screenshots to said chats could be seen on the Miro Board.
-*  
+*  **Daily Scrum:** In this first sprint, Daily Scrums were conducted on 3 seperate channels(ClickUp Chat, Whatsapp and Slack). From now on, they will be conducted only on Slack, barring any emergencies. The screenshots to said chats could be seen on the Miro Board.
+*  **Sprint Board at the end of Sprint #1:** Below you can see screenshots of the end-of-Sprint board
+
