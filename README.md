@@ -25,7 +25,7 @@ TBD
 
 ### Product Insight
 
-Our main character Allard has lost his family at a young hage. Unfortunetaly, due to the trauma caused through his parents' passing, Allard doesn't remember a lot about his past. He grows up with a royal family, who had adopted him when he was still so young. In his adult years, Allard joins the King's Army and rises to higher titles quickly, with all of the battle commendations he earns in the service of the Karovenj Kingdom. During a kill mission, personally bequested to him by his King, he comes into the possesion of some vital information and thereafter begins his adventures.
+Our main character Allard has lost his family at a young hage. Unfortunately, due to the trauma caused through his parents' passing, Allard doesn't remember a lot about his past. He grows up with a royal family, who had adopted him when he was still so young. In his adult years, Allard joins the King's Army and rises to higher titles quickly, with all of the battle commendations he earns in the service of the Karovenj Kingdom. During a kill mission, personally bequested to him by his King, he comes into possesion of some vital information and thereafter begins his adventures.
 
 ### Product Specs
 
@@ -67,9 +67,9 @@ Here, you can find the [Miro Scrum Board](https://miro.com/app/board/uXjVO2v4jX0
 
 ![Background](https://user-images.githubusercontent.com/95580142/167499571-03b6142c-d17c-43b7-969c-4adc94ffc6d4.PNG)
 
-* **Sprint Review:** Since the team member responsible for AI study and C# scripting had to quit the Bootcamp process towards the end of the first sprint and this development inevitably stalled the progress of our product, we've decided to work more hours in the coming two sprints to rectify our goals and catch up to our story points target.
+* **Sprint Review:** Since the team member responsible for AI study and C# scripting had to quit the Bootcamp towards the end of the first sprint and this development inevitably stalled the progress of our product, we've decided to work more hours in the coming two sprints to rectify our goals and catch up to our story points targets.
 * **Sprint Retrospective:**
- - The Daily Scrums need more discipline from every team member and efforts remedy absences will be taken.
- - Due to one withdrawal from the team, as a four-person group, we need to revise the story points dedicated to each sprint.
+    - The Daily Scrums need more discipline from every team member and efforts to remedy absences will be taken.
+    - Due to one team member's withdrawal from the project, as a four-people group, we need to revise the story points dedicated to each sprint.
 
 # End of Sprint #1
