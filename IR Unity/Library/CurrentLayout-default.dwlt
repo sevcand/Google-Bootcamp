@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 56
+  controlID: 63
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 57
+  controlID: 64
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 58
+  controlID: 65
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -399,9 +399,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 5a510000
+      m_SelectedIDs: bc520000
       m_LastClickedID: 0
-      m_ExpandedIDs: 96f8fffff2f9ffff62fbffff
+      m_ExpandedIDs: 7ef7ffff04f8ffff62fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -461,9 +461,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -7.333555, y: -0.12124848, z: -10.041485}
+    m_Target: {x: -27.212969, y: 2.0611372, z: -10.056419}
     speed: 2
-    m_Value: {x: -7.333555, y: -0.12124848, z: -10.041485}
+    m_Value: {x: -27.212969, y: 2.0611372, z: -10.056419}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -792,15 +792,15 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scenes
   m_LastFoldersGridSize: 75
-  m_LastProjectPath: "C:\\Users\\Sevcan Do\u011Fruyol\\Documents\\GitHub\\Google-Bootcamp\\IR
+  m_LastProjectPath: "C:\\Users\\yasin\\OneDrive\\Masa\xFCst\xFC\\Google-Bootcamp\\IR
     Unity"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 824f0000
-    m_LastClickedID: 20354
-    m_ExpandedIDs: 00000000784f0000
+    scrollPos: {x: 0, y: 8.399994}
+    m_SelectedIDs: 4c510000
+    m_LastClickedID: 20812
+    m_ExpandedIDs: 00000000185100005051000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -828,7 +828,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000
+    m_ExpandedIDs: 0000000018510000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -856,7 +856,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000d46d00006a6e0000646e0000e26d00009275000050430000ac8f0000a84500004e94000028730000
+    m_ExpandedInstanceIDs: c6230000d46d00006a6e0000646e0000e26d00009275000050430000ac8f0000a84500004e9400002873000074270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
