@@ -1,126 +1,126 @@
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.23f1 (c5d91304a876) revision 12966163'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 22000.613; Version 2009; 64bit' Language: 'tr' Physical Memory: 8080 MB
+Built from '2020.3/staging' branch; Version is '2020.3.26f1 (7298b473bc1a) revision 7510196'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 16279 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.23f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.26f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/GITHUB REPOSITORY/Google-Bootcamp/IR Unity
+C:/Users/Sevcan Doğruyol/Documents/GitHub/Google-Bootcamp/IR Unity
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52281
-Successfully changed project path to: D:/GITHUB REPOSITORY/Google-Bootcamp/IR Unity
-D:/GITHUB REPOSITORY/Google-Bootcamp/IR Unity
+51905
+Successfully changed project path to: C:/Users/Sevcan Doğruyol/Documents/GitHub/Google-Bootcamp/IR Unity
+C:/Users/Sevcan Doğruyol/Documents/GitHub/Google-Bootcamp/IR Unity
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 109.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 309.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.23f1 (c5d91304a876)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/GITHUB REPOSITORY/Google-Bootcamp/IR Unity/Assets
+Initialize engine version: 2020.3.26f1 (7298b473bc1a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Sevcan Doğruyol/Documents/GitHub/Google-Bootcamp/IR Unity/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 950M (ID=0x139a)
     Vendor:   
-    VRAM:     4019 MB
-    Driver:   30.0.15.1259
+    VRAM:     2010 MB
+    Driver:   30.0.15.1277
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56368
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002155 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005454 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 84.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 173.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.761 seconds
+- Completed reload, in  1.852 seconds
 Domain Reload Profiling:
-	ReloadAssembly (761ms)
-		BeginReloadAssembly (60ms)
+	ReloadAssembly (1853ms)
+		BeginReloadAssembly (253ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (613ms)
-			LoadAssemblies (58ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1352ms)
+			LoadAssemblies (244ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (188ms)
+			SetupTypeCache (395ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (269ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (506ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (84ms)
-				BeforeProcessingInitializeOnLoad (16ms)
-				ProcessInitializeOnLoadAttributes (106ms)
-				ProcessInitializeOnLoadMethodAttributes (55ms)
+				RefreshPlugins (173ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (210ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004392 seconds.
+Registered in 0.016564 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 81.22 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 294.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.805 seconds
+- Completed reload, in  4.313 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1806ms)
-		BeginReloadAssembly (173ms)
+	ReloadAssembly (4315ms)
+		BeginReloadAssembly (490ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1552ms)
-			LoadAssemblies (145ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (3543ms)
+			LoadAssemblies (429ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (505ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (76ms)
-			SetupLoadedEditorAssemblies (640ms)
+			SetupTypeCache (1237ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (170ms)
+			SetupLoadedEditorAssemblies (1317ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (81ms)
-				BeforeProcessingInitializeOnLoad (124ms)
-				ProcessInitializeOnLoadAttributes (401ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (295ms)
+				BeforeProcessingInitializeOnLoad (387ms)
+				ProcessInitializeOnLoadAttributes (555ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (19ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3493 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 148.6 MB.
-System memory in use after: 148.8 MB.
+System memory in use before: 148.5 MB.
+System memory in use after: 148.7 MB.
 
 Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3924.
-Total: 5.005200 ms (FindLiveObjects: 0.444700 ms CreateObjectMapping: 0.314400 ms MarkObjects: 4.134600 ms  DeleteObjects: 0.110100 ms)
+Total: 5.869300 ms (FindLiveObjects: 0.394500 ms CreateObjectMapping: 0.289100 ms MarkObjects: 5.070500 ms  DeleteObjects: 0.113600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,949 +134,65 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Paletler/oak_woods_tileset_45.asset
-  artifactKey: Guid(35abc262d8aa195469d9fea5967aee9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_45.asset using Guid(35abc262d8aa195469d9fea5967aee9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d4fbbfa90fde79838ba8317b269ca9') in 0.123630 seconds 
-  Import took 0.130548 seconds .
+  path: Assets/Scenes
+  artifactKey: Guid(4b94896feeedc5a4697987c89e452880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(4b94896feeedc5a4697987c89e452880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaba0387e47f695dd4407574c80ba86e') in 0.027285 seconds 
+  Import took 0.040695 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Paletler/Fence.prefab
-  artifactKey: Guid(cbd6a7cdb0971424eb5703945bc9a360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/Fence.prefab using Guid(cbd6a7cdb0971424eb5703945bc9a360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96ecdc3f05c710043935fee1b7bfefa') in 0.228096 seconds 
-  Import took 0.235225 seconds .
+  Time since last request: 4.241143 seconds.
+  path: Assets/Scenes/Fourth Scene.unity
+  artifactKey: Guid(6d18e17019328bb4786aa52b944deaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Fourth Scene.unity using Guid(6d18e17019328bb4786aa52b944deaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6e17e245d3dc1844eb4ad5d5477936') in 0.112905 seconds 
+  Import took 0.142048 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/Paletler/oak_woods_tileset_5.asset
-  artifactKey: Guid(35163b791da1607458c4a784d2833135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_5.asset using Guid(35163b791da1607458c4a784d2833135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd9c3ae73d11e1ec9d2459f62f92080') in 0.018961 seconds 
-  Import took 0.045504 seconds .
+  Time since last request: 1.463816 seconds.
+  path: Assets/Scenes/testing scene.unity
+  artifactKey: Guid(7a4af9e8e7d8e0548bb403fb866eedcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/testing scene.unity using Guid(7a4af9e8e7d8e0548bb403fb866eedcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a6cc7c4eb91e7e6a823ef4b49b0a788') in 0.012763 seconds 
+  Import took 0.024355 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/Paletler/oak_woods_tileset_52.asset
-  artifactKey: Guid(0f6bcf93cdfe0c947953f2f2f1e28e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_52.asset using Guid(0f6bcf93cdfe0c947953f2f2f1e28e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6451250e4345fe79ef71aff9278759bc') in 0.022661 seconds 
-  Import took 0.050790 seconds .
+  Time since last request: 16.143849 seconds.
+  path: Assets/Scenes/Third Scene.unity
+  artifactKey: Guid(7a4af9e8e7d8e0548bb403fb866eedcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Third Scene.unity using Guid(7a4af9e8e7d8e0548bb403fb866eedcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142f99279dbd0ab947af0638439fca0f') in 0.037525 seconds 
+  Import took 0.065519 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/Paletler/fence_2.asset
-  artifactKey: Guid(23ee380a9c310f040a399b9f1624ea34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/fence_2.asset using Guid(23ee380a9c310f040a399b9f1624ea34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '268b8a590107d147bf9911a71c781005') in 0.014873 seconds 
-  Import took 0.056072 seconds .
+  Time since last request: 1.214314 seconds.
+  path: Assets/Scenes/İkinci Sahne.unity
+  artifactKey: Guid(69f1b3d8cd1dffd4ba85a2497551923d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/İkinci Sahne.unity using Guid(69f1b3d8cd1dffd4ba85a2497551923d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1582a56c463163f7e3ec59fbf10a20a8') in 0.010246 seconds 
+  Import took 0.019027 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/Paletler/oak_woods_tileset_39.asset
-  artifactKey: Guid(b23586509499ac647b95f0263fdf454a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_39.asset using Guid(b23586509499ac647b95f0263fdf454a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8a0cd416ef0ff493bef6663750e9dd') in 0.025552 seconds 
-  Import took 0.033450 seconds .
+  Time since last request: 7.569345 seconds.
+  path: Assets/Scenes/3rd Scene.unity
+  artifactKey: Guid(7a4af9e8e7d8e0548bb403fb866eedcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3rd Scene.unity using Guid(7a4af9e8e7d8e0548bb403fb866eedcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7bbc4fea05cfbf112a17cce75b27b59') in 0.022370 seconds 
+  Import took 0.045391 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Paletler/oak_woods_tileset_58.asset
-  artifactKey: Guid(69342f4bf293ebe4c9bd95ec6a4f6325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_58.asset using Guid(69342f4bf293ebe4c9bd95ec6a4f6325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a3ed537fa16e1db9f3ca3f215b3d0a') in 0.024563 seconds 
-  Import took 0.043286 seconds .
+  Time since last request: 6.327679 seconds.
+  path: Assets/Scenes/4th Scene.unity
+  artifactKey: Guid(6d18e17019328bb4786aa52b944deaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/4th Scene.unity using Guid(6d18e17019328bb4786aa52b944deaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7646d413c8ecdc39d8ae7f5ca8f03337') in 0.014884 seconds 
+  Import took 0.026704 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/Paletler/oak_woods_tileset_13.asset
-  artifactKey: Guid(491dc55ed8ab094418316fbc929156ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_13.asset using Guid(491dc55ed8ab094418316fbc929156ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4461bc09baf6e53e6eb8c11bbc571c6') in 0.019028 seconds 
-  Import took 0.038176 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Paletler/oak_woods_tileset_16.asset
-  artifactKey: Guid(bcd9b0da3a7a9544896a89e3e37f4140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_16.asset using Guid(bcd9b0da3a7a9544896a89e3e37f4140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79bd3c5f6a8aa15d71627a4403e5fc57') in 0.016371 seconds 
-  Import took 0.042366 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Paletler/oak_woods_tileset_29.asset
-  artifactKey: Guid(549c8e475e107bb40b45029b21391bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_29.asset using Guid(549c8e475e107bb40b45029b21391bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a3613752ca6a8313df20aa2ee520a3') in 0.019822 seconds 
-  Import took 0.038258 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Paletler/oak_woods_tileset_50.asset
-  artifactKey: Guid(411e2c3ed19475a4eb548c5b345a66b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_50.asset using Guid(411e2c3ed19475a4eb548c5b345a66b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ea4320622b5b35aafe14202f1406ea') in 0.016882 seconds 
-  Import took 0.028188 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Paletler/oak_woods_tileset_19.asset
-  artifactKey: Guid(b00bdd6c2266c6a4e98e98f286aa949b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_19.asset using Guid(b00bdd6c2266c6a4e98e98f286aa949b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '803be7aa59bb8217d499adfc1be120c1') in 0.020249 seconds 
-  Import took 0.037488 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Paletler/Bigrock.prefab
-  artifactKey: Guid(75a1ffd82c4efc347ad0a3361448c70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/Bigrock.prefab using Guid(75a1ffd82c4efc347ad0a3361448c70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d0beb15949d9bd9e96ef3fb0268a85') in 0.020863 seconds 
-  Import took 0.031278 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Paletler/oak_woods_tileset_8.asset
-  artifactKey: Guid(17d5568b5624bd54fa2d847e6de7f09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_8.asset using Guid(17d5568b5624bd54fa2d847e6de7f09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab1777600b4c17537a78eebb6372c3b') in 0.018466 seconds 
-  Import took 0.026827 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000491 seconds.
-  path: Assets/Paletler/oak_woods_tileset_57.asset
-  artifactKey: Guid(5594adbd14c4b3644ada4dd1eb6a479b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_57.asset using Guid(5594adbd14c4b3644ada4dd1eb6a479b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe416f4778853f3c91d179abb9e139d') in 0.017848 seconds 
-  Import took 0.034882 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Paletler/oak_woods_tileset_15.asset
-  artifactKey: Guid(4ad42926afbc41a4982d250f83d4cb41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_15.asset using Guid(4ad42926afbc41a4982d250f83d4cb41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b083118940e09cb05060996d0b762e') in 0.019519 seconds 
-  Import took 0.026473 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Paletler/oak_woods_tileset_22.asset
-  artifactKey: Guid(0f9f35312aa6da546882a347c0845002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_22.asset using Guid(0f9f35312aa6da546882a347c0845002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1a37d1ab6115b41dc2aebbdb7e812c') in 0.012543 seconds 
-  Import took 0.024913 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Paletler/Ground2.prefab
-  artifactKey: Guid(54393d51071df7b40a2d9e598ed2fa7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/Ground2.prefab using Guid(54393d51071df7b40a2d9e598ed2fa7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f84e7e4c8fde34c385668a5b57e347') in 0.026787 seconds 
-  Import took 0.035917 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Paletler/New Palette.prefab
-  artifactKey: Guid(a9ff9810a34fca046894779636de6fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/New Palette.prefab using Guid(a9ff9810a34fca046894779636de6fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d2aa242aac023f4858f2708c56acf4') in 0.022453 seconds 
-  Import took 0.067188 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Paletler/oak_woods_tileset_31.asset
-  artifactKey: Guid(f704c805cc25e3c4990ec2da1f3354d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_31.asset using Guid(f704c805cc25e3c4990ec2da1f3354d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f4da01cf5c50d306db291fe69119b7') in 0.020567 seconds 
-  Import took 0.029719 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Paletler/oak_woods_tileset_21.asset
-  artifactKey: Guid(bce28e6a22840c145b29993ddf0e15c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_21.asset using Guid(bce28e6a22840c145b29993ddf0e15c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0501450cddc5f63063a8a761ccdaa9') in 0.018834 seconds 
-  Import took 0.029264 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Paletler/oak_woods_tileset_61.asset
-  artifactKey: Guid(e992d7a6a2e431548b78e1ff1a8f522e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_61.asset using Guid(e992d7a6a2e431548b78e1ff1a8f522e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7203a431caa4273248c2b2d8a27825f') in 0.017692 seconds 
-  Import took 0.027023 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Paletler/oak_woods_tileset_33.asset
-  artifactKey: Guid(5507754a22953d84b878ce2344896966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_33.asset using Guid(5507754a22953d84b878ce2344896966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83c99765ba3e81e7e3b190ad7d89e2a') in 0.024135 seconds 
-  Import took 0.034534 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/Paletler/oak_woods_tileset_10.asset
-  artifactKey: Guid(258271e0fa4c2754d8dcbe99aa436c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_10.asset using Guid(258271e0fa4c2754d8dcbe99aa436c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd51580b55769aca55a618cdbad9561') in 0.018878 seconds 
-  Import took 0.027317 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Paletler/oak_woods_tileset_67.asset
-  artifactKey: Guid(bc79bb43e420e184eafefc5d45121f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_67.asset using Guid(bc79bb43e420e184eafefc5d45121f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4c5e1bdbae79624bc28825b578d465') in 0.015097 seconds 
-  Import took 0.033139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Paletler/oak_woods_tileset_49.asset
-  artifactKey: Guid(5056ce8fe1a4c25489e2cf04af7ba408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_49.asset using Guid(5056ce8fe1a4c25489e2cf04af7ba408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0df0b9bf4b0ebfb341f73227218b2a') in 0.016220 seconds 
-  Import took 0.043710 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Paletler/oak_woods_tileset_62.asset
-  artifactKey: Guid(e0dd18a0983851946845029f338ed0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_62.asset using Guid(e0dd18a0983851946845029f338ed0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c8f0bccd169761095a126db2309d624') in 0.023018 seconds 
-  Import took 0.032088 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Paletler/oak_woods_tileset_64.asset
-  artifactKey: Guid(a68a60a737cfea844a5b7375a1cf4a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_64.asset using Guid(a68a60a737cfea844a5b7375a1cf4a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bbd79bf0c8b475ba1d7f2b7ebeba080') in 0.022674 seconds 
-  Import took 0.053029 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Paletler/oak_woods_tileset_56.asset
-  artifactKey: Guid(78c8f9238b8053142a08917b47063d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_56.asset using Guid(78c8f9238b8053142a08917b47063d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd3edcf91be0b12216d610c8efccc09') in 0.019474 seconds 
-  Import took 0.029452 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Paletler/oak_woods_tileset_47.asset
-  artifactKey: Guid(11ef4e59b9198534fb2a1f6aaa7e7523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_47.asset using Guid(11ef4e59b9198534fb2a1f6aaa7e7523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04c0695c7bb9d470fa7d66e5bf83c00') in 0.020806 seconds 
-  Import took 0.074047 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Paletler/oak_woods_tileset_43.asset
-  artifactKey: Guid(27cbeab72530430439bbb9679af18235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_43.asset using Guid(27cbeab72530430439bbb9679af18235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdcdf7d087067e35a7717bfe4cf1e143') in 0.016371 seconds 
-  Import took 0.025647 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Paletler/oak_woods_tileset_23.asset
-  artifactKey: Guid(0241a5bea4f6bf04ca4e97de335bbe3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_23.asset using Guid(0241a5bea4f6bf04ca4e97de335bbe3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0b6307d30a510d47d9d522ede0138e') in 0.019411 seconds 
-  Import took 0.026395 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Paletler/oak_woods_tileset_36.asset
-  artifactKey: Guid(be48d50580f0edc4886b84243024d83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_36.asset using Guid(be48d50580f0edc4886b84243024d83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c0fe65eff7e7a3fe0bca895fdbc7ff') in 0.022884 seconds 
-  Import took 0.064177 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Paletler/oak_woods_tileset_53.asset
-  artifactKey: Guid(ab4e61660744cf64ba547cfbf57cc440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_53.asset using Guid(ab4e61660744cf64ba547cfbf57cc440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171102101d994c186a58546b4bbb761c') in 0.022355 seconds 
-  Import took 0.031067 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Paletler/oak_woods_tileset_38.asset
-  artifactKey: Guid(b38313f530d9f0548adecc825b389522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_38.asset using Guid(b38313f530d9f0548adecc825b389522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48eab3f49c008db886309691b5d4eec') in 0.029692 seconds 
-  Import took 0.038487 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Paletler/oak_woods_tileset_46.asset
-  artifactKey: Guid(e2b5da0396b02f04ca7ab05d69f46006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_46.asset using Guid(e2b5da0396b02f04ca7ab05d69f46006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a699532cc5bd274f5ec5875092d5ab') in 0.024158 seconds 
-  Import took 0.035922 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Paletler/oak_woods_tileset_66.asset
-  artifactKey: Guid(4c33f2a2cbc79504ca638b45d2f553de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_66.asset using Guid(4c33f2a2cbc79504ca638b45d2f553de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f8bcd1df3516261253942b5793fb4f') in 0.037985 seconds 
-  Import took 0.044857 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Paletler/oak_woods_tileset_4.asset
-  artifactKey: Guid(09b95cf35a303084eaa70b66434078cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_4.asset using Guid(09b95cf35a303084eaa70b66434078cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d919dc9f9cb8a64bc78ed3569a40b27') in 0.017619 seconds 
-  Import took 0.025031 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Paletler/fence_1.asset
-  artifactKey: Guid(bd6542702dbf4bf44911f4791b488a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/fence_1.asset using Guid(bd6542702dbf4bf44911f4791b488a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658c09ff4ed75d7bf55bad2958ba81b7') in 0.017362 seconds 
-  Import took 0.038340 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Paletler/oak_woods_tileset_12.asset
-  artifactKey: Guid(241a6818963c2ed42942ad363ad880e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_12.asset using Guid(241a6818963c2ed42942ad363ad880e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc57be51ffe60c2e1a8c22419d230a2') in 0.016044 seconds 
-  Import took 0.024649 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Paletler/oak_woods_tileset_1.asset
-  artifactKey: Guid(1fff15da089abfb41ae3e799775fd6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_1.asset using Guid(1fff15da089abfb41ae3e799775fd6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9380a22f888e40f729683ad6157b4888') in 0.019739 seconds 
-  Import took 0.026865 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Paletler/oak_woods_tileset_20.asset
-  artifactKey: Guid(d0d7d9442875ebf46a6259cf828036f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_20.asset using Guid(d0d7d9442875ebf46a6259cf828036f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9465230337729c8279986e0dc61e54') in 0.019075 seconds 
-  Import took 0.065920 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Paletler/oak_woods_tileset_40.asset
-  artifactKey: Guid(8ed433b7d0de25b4a82d78f003255f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_40.asset using Guid(8ed433b7d0de25b4a82d78f003255f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7de9a1903d2a6354bf106c5df0cd19f') in 0.019151 seconds 
-  Import took 0.027823 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Paletler/oak_woods_tileset_60.asset
-  artifactKey: Guid(ffee21d720489d847aaa03f2249a2052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_60.asset using Guid(ffee21d720489d847aaa03f2249a2052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa05c9930f51e913595ac1f8d6eb64f') in 0.025958 seconds 
-  Import took 0.033863 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/Paletler/oak_woods_tileset_69.asset
-  artifactKey: Guid(53f220b3fe28a424aaa9c8cce2f833ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_69.asset using Guid(53f220b3fe28a424aaa9c8cce2f833ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03a56b1a03bbf936b99b2c943a965c3') in 0.019331 seconds 
-  Import took 0.028779 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Paletler/oak_woods_tileset_68.asset
-  artifactKey: Guid(ccdfb06ac1fac9a44b73d03b112ec61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_68.asset using Guid(ccdfb06ac1fac9a44b73d03b112ec61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53b400cdda365288564856fc05b2dc9') in 0.012132 seconds 
-  Import took 0.018806 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Paletler/oak_woods_tileset_59.asset
-  artifactKey: Guid(73ef833083348684e832cc8e89c4c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_59.asset using Guid(73ef833083348684e832cc8e89c4c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ac58c0e7b09c479f679eb753b6f30a') in 0.009957 seconds 
-  Import took 0.020429 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Paletler/oak_woods_tileset_25.asset
-  artifactKey: Guid(cbc6b8a9f0f474b4aabf0101be5c0df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_25.asset using Guid(cbc6b8a9f0f474b4aabf0101be5c0df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0a1c77e10d7e450092d4d780c0386f') in 0.018589 seconds 
-  Import took 0.029134 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Paletler/oak_woods_tileset_51.asset
-  artifactKey: Guid(ec27253e51b987c4a92e614973e784e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_51.asset using Guid(ec27253e51b987c4a92e614973e784e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b744c322f56e1047dc97988c481c348') in 0.019246 seconds 
-  Import took 0.031113 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Paletler/oak_woods_tileset_14.asset
-  artifactKey: Guid(561bbe811556c9942ae6cb05f43ca0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_14.asset using Guid(561bbe811556c9942ae6cb05f43ca0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66207c28a6952ea58aaa42f1240bfa4') in 0.013071 seconds 
-  Import took 0.020299 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Paletler/oak_woods_tileset_37.asset
-  artifactKey: Guid(1aa6260b312cd95438de22392679add6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_37.asset using Guid(1aa6260b312cd95438de22392679add6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c238dc7af14e67bee806aa028a290a14') in 0.015292 seconds 
-  Import took 0.056645 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Scripts/Character
-  artifactKey: Guid(d792edd08caca7b488832b8062a1f310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Character using Guid(d792edd08caca7b488832b8062a1f310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa858d2e3c8c5c5e4cead447428b444') in 0.005968 seconds 
-  Import took 0.027273 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Paletler/oak_woods_tileset_2.asset
-  artifactKey: Guid(0a290b47984649646aed0acdff0ad0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_2.asset using Guid(0a290b47984649646aed0acdff0ad0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ddaf8ced0e601e997f1a3833d1ce23') in 0.021892 seconds 
-  Import took 0.033146 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Paletler/oak_woods_tileset_0.asset
-  artifactKey: Guid(e4217f184e82a4d4da67568ba4c4453a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_0.asset using Guid(e4217f184e82a4d4da67568ba4c4453a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be563b0501d3ec5820ba50ef9fe5f0d') in 0.017759 seconds 
-  Import took 0.030855 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Paletler/oak_woods_tileset_28.asset
-  artifactKey: Guid(4a4018793542af1469d66fd5e7909fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_28.asset using Guid(4a4018793542af1469d66fd5e7909fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3149b93fc0a270433c891374c880c491') in 0.019005 seconds 
-  Import took 0.027364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Paletler/oak_woods_tileset_30.asset
-  artifactKey: Guid(b33b23e4c149f44499c6fb4892ab6c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_30.asset using Guid(b33b23e4c149f44499c6fb4892ab6c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '650112976824a285c4fb25a14a24531c') in 0.017503 seconds 
-  Import took 0.024165 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Paletler/oak_woods_tileset_65.asset
-  artifactKey: Guid(69f8ad41a1a1ca44e804a3ca2de26d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_65.asset using Guid(69f8ad41a1a1ca44e804a3ca2de26d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '885fa3098007ef5a02d4bacf7fe62f02') in 0.018195 seconds 
-  Import took 0.027972 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Paletler/oak_woods_tileset_41.asset
-  artifactKey: Guid(87a70ce6331f7674c843319476a9655a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_41.asset using Guid(87a70ce6331f7674c843319476a9655a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd8eb0b21b5430bfcd6383e4b2e424b') in 0.017830 seconds 
-  Import took 0.027023 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000442 seconds.
-  path: Assets/Paletler/oak_woods_tileset_26.asset
-  artifactKey: Guid(4655825729c8bc94881420eb6813cf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_26.asset using Guid(4655825729c8bc94881420eb6813cf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc08b870011fee9d6f170daa95b03c45') in 0.025824 seconds 
-  Import took 0.033715 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Paletler/oak_woods_tileset_63.asset
-  artifactKey: Guid(227ffd7d676bc8240addd57bfe4ce959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_63.asset using Guid(227ffd7d676bc8240addd57bfe4ce959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '720eae7879aed3dd547ec9004ddf5499') in 0.017953 seconds 
-  Import took 0.024636 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Paletler/oak_woods_tileset_71.asset
-  artifactKey: Guid(ccec7a62d12e7d44f9f33874b0aa3562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_71.asset using Guid(ccec7a62d12e7d44f9f33874b0aa3562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4331d5eea0d8cfcaa2d3ec85ac38778e') in 0.014356 seconds 
-  Import took 0.026074 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Paletler/oak_woods_tileset_6.asset
-  artifactKey: Guid(69412a0c4d8d2224ba7ff374cbcdd2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_6.asset using Guid(69412a0c4d8d2224ba7ff374cbcdd2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d6f44fa7cd213a4badf871e912d776') in 0.016421 seconds 
-  Import took 0.043437 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Paletler/oak_woods_tileset_48.asset
-  artifactKey: Guid(c7347536322511f4383c6eb775cfc54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_48.asset using Guid(c7347536322511f4383c6eb775cfc54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a432434abee49011de5a1c17889016') in 0.022426 seconds 
-  Import took 0.030377 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Paletler/oak_woods_tileset_18.asset
-  artifactKey: Guid(2c8d957b6a25bb347ac737ad9bec9067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_18.asset using Guid(2c8d957b6a25bb347ac737ad9bec9067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012049f1767acdfaa8cdf3bec9ee6e21') in 0.020622 seconds 
-  Import took 0.167312 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/Paletler/oak_woods_tileset_9.asset
-  artifactKey: Guid(9618a28845159dc42bd2eaf77c64c720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_9.asset using Guid(9618a28845159dc42bd2eaf77c64c720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe87599cae67b21e2c3972cfc6b91c87') in 0.019503 seconds 
-  Import took 0.029410 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Paletler/oak_woods_tileset_3.asset
-  artifactKey: Guid(a4f59d0a8614f274290db1eb8eacfb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_3.asset using Guid(a4f59d0a8614f274290db1eb8eacfb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995bedfea222f926e3f4998014d25071') in 0.023954 seconds 
-  Import took 0.031262 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/Paletler/oak_woods_tileset_11.asset
-  artifactKey: Guid(d17c7ac62f5c0ac4fae8bf82739cb4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_11.asset using Guid(d17c7ac62f5c0ac4fae8bf82739cb4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34fd2716e43b24053528bcdc4e30198') in 0.025721 seconds 
-  Import took 0.032693 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000303 seconds.
-  path: Assets/Paletler/grass_1.asset
-  artifactKey: Guid(7e35b41b24965d241b65fae0390de2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/grass_1.asset using Guid(7e35b41b24965d241b65fae0390de2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001dbeb39db81211fb03333e2da6b05c') in 0.020485 seconds 
-  Import took 0.029233 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Paletler/oak_woods_tileset_54.asset
-  artifactKey: Guid(4bfbcd42da1c6414b8ae108f31cd2d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_54.asset using Guid(4bfbcd42da1c6414b8ae108f31cd2d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aae9c330ab5e81b8d1ad98485c27e13') in 0.021893 seconds 
-  Import took 0.030348 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Paletler/oak_woods_tileset_70.asset
-  artifactKey: Guid(331cf0659add37a49a638d8a5ca89ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_70.asset using Guid(331cf0659add37a49a638d8a5ca89ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e868b8a881867adb84c78cbd8542c7') in 0.021723 seconds 
-  Import took 0.027931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Paletler/oak_woods_tileset_55.asset
-  artifactKey: Guid(1a6756dc17966c0498cbb90fbe43047f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_55.asset using Guid(1a6756dc17966c0498cbb90fbe43047f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1edad142995aa62bfb1cd8db6cb2d78d') in 0.018810 seconds 
-  Import took 0.026222 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Paletler/oak_woods_tileset_32.asset
-  artifactKey: Guid(efb7396a666ab5b4fb99657682e3db25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_32.asset using Guid(efb7396a666ab5b4fb99657682e3db25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e74d07c683d3df8ee4ea58a78e5f4a') in 0.016197 seconds 
-  Import took 0.023673 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Paletler
-  artifactKey: Guid(12b66055dda53e747b1c48d4b52c7327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler using Guid(12b66055dda53e747b1c48d4b52c7327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33cb62ea13b5ac5050c39bb4ef05a6bd') in 0.006825 seconds 
-  Import took 0.021940 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Paletler/oak_woods_tileset_17.asset
-  artifactKey: Guid(cda0690681e4374469461b9ad0d05ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_17.asset using Guid(cda0690681e4374469461b9ad0d05ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '695b413e5e1da701ffc2fe7d7415d217') in 0.019810 seconds 
-  Import took 0.046102 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Paletler/oak_woods_tileset_42.asset
-  artifactKey: Guid(913aaef3764ff2c46a38d181754fe3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_42.asset using Guid(913aaef3764ff2c46a38d181754fe3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90010701dd8274b18a437381aa9429a9') in 0.019512 seconds 
-  Import took 0.026367 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Paletler/oak_woods_tileset_7.asset
-  artifactKey: Guid(b711361377ba80647b8f8dea564cc664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_7.asset using Guid(b711361377ba80647b8f8dea564cc664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f6d0719944b7393c494978ed5da5544') in 0.019418 seconds 
-  Import took 0.027270 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Paletler/grass_3.asset
-  artifactKey: Guid(02c77693715ac4349b715d649bbc5640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/grass_3.asset using Guid(02c77693715ac4349b715d649bbc5640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72584739974f44c571b6a80736d9f7d1') in 0.019065 seconds 
-  Import took 0.026169 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Paletler/Mypalette.prefab
-  artifactKey: Guid(df711c367224eaa43bb79782839fc18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/Mypalette.prefab using Guid(df711c367224eaa43bb79782839fc18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfdf1b3320017f52e4ac8f27cb0f2e7e') in 0.241567 seconds 
-  Import took 0.251864 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Paletler/oak_woods_tileset_34.asset
-  artifactKey: Guid(38ceae3d896318043ad55fd3d50e3435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_34.asset using Guid(38ceae3d896318043ad55fd3d50e3435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca3a380b1a5cc3529235e81c0680dc0') in 0.018188 seconds 
-  Import took 0.027889 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/Paletler/oak_woods_tileset_44.asset
-  artifactKey: Guid(dc363b8de67610a418d2e6914665db5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_44.asset using Guid(dc363b8de67610a418d2e6914665db5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54665a923da41b35f975136550e6bbfd') in 0.021356 seconds 
-  Import took 0.030840 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Paletler/oak_woods_tileset_35.asset
-  artifactKey: Guid(a4bb65c450fbc2d4c84204899e5f1a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_35.asset using Guid(a4bb65c450fbc2d4c84204899e5f1a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13dee8524f465a185d12230127ded50c') in 0.019595 seconds 
-  Import took 0.028637 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Paletler/oak_woods_tileset_24.asset
-  artifactKey: Guid(66761a5d374a21b4aa90b004b98818ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_24.asset using Guid(66761a5d374a21b4aa90b004b98818ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '572d4efb93c810b6279eb122e698065d') in 0.028663 seconds 
-  Import took 0.051894 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Paletler/oak_woods_tileset_27.asset
-  artifactKey: Guid(16da54aef35463b4e9176797728eb867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Paletler/oak_woods_tileset_27.asset using Guid(16da54aef35463b4e9176797728eb867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a7ede7838aaa7602399d82164a8a5f4') in 0.019293 seconds 
-  Import took 0.029023 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004072 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.406 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1407ms)
-		BeginReloadAssembly (150ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (1187ms)
-			LoadAssemblies (106ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (426ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (397ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (118ms)
-				ProcessInitializeOnLoadAttributes (252ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (23ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3376 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.3 MB.
-System memory in use after: 146.5 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3978.
-Total: 4.345900 ms (FindLiveObjects: 0.349200 ms CreateObjectMapping: 0.219200 ms MarkObjects: 3.751800 ms  DeleteObjects: 0.024200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004130 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.409 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1409ms)
-		BeginReloadAssembly (132ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (1206ms)
-			LoadAssemblies (113ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (405ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (434ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (138ms)
-				ProcessInitializeOnLoadAttributes (265ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (23ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3376 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.3 MB.
-System memory in use after: 146.6 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3980.
-Total: 5.537100 ms (FindLiveObjects: 0.511800 ms CreateObjectMapping: 0.277500 ms MarkObjects: 4.702400 ms  DeleteObjects: 0.043200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 144.035647 seconds.
-  path: Assets/Scripts/Dialog
-  artifactKey: Guid(fcf3127ad03fd9d408a85dd825719008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Dialog using Guid(fcf3127ad03fd9d408a85dd825719008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4006899f788b0c4c752016b84c26c8') in 0.010680 seconds 
-  Import took 0.018003 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.826152 seconds.
-  path: Assets/Scripts/Dialogue
-  artifactKey: Guid(fcf3127ad03fd9d408a85dd825719008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Dialogue using Guid(fcf3127ad03fd9d408a85dd825719008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c618fe0ebb9f9d1466ba7162e2553d0') in 0.008188 seconds 
-  Import took 0.037115 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.052708 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  7.248 seconds
-Domain Reload Profiling:
-	ReloadAssembly (7248ms)
-		BeginReloadAssembly (141ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (7029ms)
-			LoadAssemblies (4898ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (412ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (69ms)
-			SetupLoadedEditorAssemblies (396ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (119ms)
-				ProcessInitializeOnLoadAttributes (245ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.4 MB.
-System memory in use after: 146.7 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3985.
-Total: 6.271300 ms (FindLiveObjects: 0.496100 ms CreateObjectMapping: 0.319400 ms MarkObjects: 5.377600 ms  DeleteObjects: 0.076900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.055277 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  5.510 seconds
-Domain Reload Profiling:
-	ReloadAssembly (5510ms)
-		BeginReloadAssembly (120ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (5320ms)
-			LoadAssemblies (3403ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (392ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (394ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (120ms)
-				ProcessInitializeOnLoadAttributes (241ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.4 MB.
-System memory in use after: 146.7 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3987.
-Total: 4.631300 ms (FindLiveObjects: 0.403900 ms CreateObjectMapping: 0.309700 ms MarkObjects: 3.892700 ms  DeleteObjects: 0.023900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 405.817078 seconds.
-  path: Assets/Scripts/Dialogue/Texts
-  artifactKey: Guid(2107746d31313d44eacec7d0158ccd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Dialogue/Texts using Guid(2107746d31313d44eacec7d0158ccd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c99c47c3edfd9abc82f1ceba409e9fa') in 0.044322 seconds 
-  Import took 0.050914 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 89.003493 seconds.
-  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
-  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c16cfde19a1474f3d0cec364233ce24') in 0.347169 seconds 
-  Import took 0.356711 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/TextMesh Pro/Fonts
-  artifactKey: Guid(87e6914c57a577f41b8bdc682daa34fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts using Guid(87e6914c57a577f41b8bdc682daa34fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a6208a5bc183e95f0df2d23e51e76e') in 0.009754 seconds 
-  Import took 0.028950 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.700542 seconds.
-  path: Assets/Prefab/DialogueCanvas.prefab
-  artifactKey: Guid(c35fe4f73d9a71043bd24c8e93eae27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/DialogueCanvas.prefab using Guid(c35fe4f73d9a71043bd24c8e93eae27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9bed5d87089bf697e3956c4ddd59a81') in 0.054455 seconds 
-  Import took 0.089566 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.150490 seconds.
-  path: Assets/Scripts/Dialogue/Prefab
-  artifactKey: Guid(324da686650c4814eac859e23c562d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Dialogue/Prefab using Guid(324da686650c4814eac859e23c562d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89cf4fcde3259276b93737b67c71d6fe') in 0.012220 seconds 
-  Import took 0.038243 seconds .
+  Time since last request: 7.703799 seconds.
+  path: Assets/Scenes/2nd Scene.unity
+  artifactKey: Guid(69f1b3d8cd1dffd4ba85a2497551923d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/2nd Scene.unity using Guid(69f1b3d8cd1dffd4ba85a2497551923d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e442b2021f80c0558c7827025d49912') in 0.027555 seconds 
+  Import took 0.053056 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
