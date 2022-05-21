@@ -73,3 +73,44 @@ Here, you can find the [Miro Scrum Board](https://miro.com/app/board/uXjVO2v4jX0
     - Due to one team member's withdrawal from the project, as a four-people group, we need to revise the story points dedicated to each sprint.
 
 # End of Sprint #1
+
+
+## Sprint #2
+
+*  **Sprint Notes:** Story points and user stories have been explained product backlog entries. The details could be found in full entry mode.
+*  **Possible Sprint Completion:** 110 Points
+*  **Backlog Orgnization and Story Choices:** Product Backlog is organized to detail every feature that is predicted to be implemented to the product by the end of the 3rd Sprint. Stories were based on how the product could be made more appealing to the user with graphics, animation, asset quality and so on.
+*  **Daily Scrum:** As stated at the Sprint #1 report, the Sprint #2 Daily Scrums were conducted only on Slack (with the exception of few cases where Whatsapp was a means of communication with regards to push/pull requests, asset discussions and so on. It was decided to exclude the screenshots of these conversations from this report for a more formal outlook). The screenshots to said chats could be seen on the Miro Board.
+*  **Sprint Board Screenshots:** Below you can see the screenshots (1) the goal for the Sprint, (2) the circumstances at the end of the Sprint.
+
+
+![Screenshot (40)](https://user-images.githubusercontent.com/95580142/169664174-dae79c2f-94dd-4a7b-9d7a-3c5c9deff8a8.png)
+
+
+![Screenshot (41)](https://user-images.githubusercontent.com/95580142/169664359-9702b975-25eb-43b8-8c7f-11f77f523ec3.png)
+
+
+* **Product Backlog:** Below you can see the screenshot of the product backlog
+
+
+![Screenshot (42)](https://user-images.githubusercontent.com/95580142/169664411-2ca79fd0-fa2d-49c4-87ac-c4a3c131a758.png)
+
+
+
+* **The progress in the product as of the end of Sprint #2:** Below you can see screenshots from the product's the latest condition
+
+
+
+
+
+
+
+* **Sprint Review:** While we have improved on our work, we've decided that the last week of this Sprint was not as fruitful as we've hoped it to be. In the meeting of 21st of May, this issue was discussed and ways to rectify it in the coming Sprint were laid out by team members.
+
+* **Sprint Retrospective:**
+    -Since this Sprint has showed what little time we've left could be crucial to creating an MVP, we've decided it would be best to manage our workload in a way that would be the most effective in the first week of the Sprint #3. This isdue to the fact that all members of the team, being students will prove the last week of the Sprint #3 to be very difficult in terms of collaboration.
+
+#### Notes: The Daily Scrum Screenshots can be found in the same adress as they were in for the Sprint #1 report: https://miro.com/app/board/uXjVO2v4jX0=/?share_link_id=499352999756
+
+# End of Sprint #2
+
