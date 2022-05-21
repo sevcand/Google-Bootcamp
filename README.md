@@ -100,9 +100,10 @@ Here, you can find the [Miro Scrum Board](https://miro.com/app/board/uXjVO2v4jX0
 * **The progress in the product as of the end of Sprint #2:** Below you can see screenshots from the product's the latest condition
 
 
+![Screenshot (43)](https://user-images.githubusercontent.com/95580142/169668641-c5cd4414-9853-45c6-b6cb-97b54999a4fd.png)
 
 
-
+![Screenshot (44)](https://user-images.githubusercontent.com/95580142/169668646-467dcdf7-060e-4370-8a4c-fa7e49aa25a1.png)
 
 
 * **Sprint Review:** While we have improved on our work, we've decided that the last week of this Sprint was not as fruitful as we've hoped it to be. In the meeting of 21st of May, this issue was discussed and ways to rectify it in the coming Sprint were laid out by team members.
