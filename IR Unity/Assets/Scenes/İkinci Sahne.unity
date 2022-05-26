@@ -4373,9 +4373,13 @@ Tilemap:
   m_TileAssetArray:
   - m_RefCount: 126
     m_Data: {fileID: 11400000, guid: fa50dc6093b66fe439e0efb2adf830cd, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileSpriteArray:
   - m_RefCount: 126
     m_Data: {fileID: 21300000, guid: 4aa0a50e546194c289de175afdd9e097, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileMatrixArray:
   - m_RefCount: 126
     m_Data:
@@ -4402,7 +4406,7 @@ Tilemap:
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -27, y: -4, z: 0}
-  m_Size: {x: 126, y: 4, z: 1}
+  m_Size: {x: 140, y: 4, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -6077,7 +6081,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1717825749
 MonoBehaviour:
   m_ObjectHideFlags: 0

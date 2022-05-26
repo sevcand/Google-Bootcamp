@@ -58,6 +58,10 @@
     <Compile Include="Assets\Scripts\Character\DestroyEvent_HeroKnight.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Sprites\Castle\Castle-Hall\Autor_note.txt" />
+    <None Include="Assets\Sprites\Pixel2DCastleTileset\about.txt" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="UnityEngine">
       <HintPath>D:\unity\2020.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
