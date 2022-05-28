@@ -7150,9 +7150,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: BanditOne
       objectReference: {fileID: 0}
+    - target: {fileID: 4412839679335937301, guid: 9cf5a964c6a3707448811414e3870506, type: 3}
+      propertyPath: movementSpeed
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5423549100872670886, guid: 9cf5a964c6a3707448811414e3870506, type: 3}
       propertyPath: m_RootOrder
       value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423549100872670886, guid: 9cf5a964c6a3707448811414e3870506, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.3627821
       objectReference: {fileID: 0}
     - target: {fileID: 5423549100872670886, guid: 9cf5a964c6a3707448811414e3870506, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7160,7 +7168,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5423549100872670886, guid: 9cf5a964c6a3707448811414e3870506, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.77
+      value: -2.67
       objectReference: {fileID: 0}
     - target: {fileID: 5423549100872670886, guid: 9cf5a964c6a3707448811414e3870506, type: 3}
       propertyPath: m_LocalPosition.z
