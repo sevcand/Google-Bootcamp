@@ -9,13 +9,11 @@ TBD
 
 ### Team Members
 
-- Product Owner: Alperen Karaduman
+- Alperen Karaduman > Developer/Product Owner
 
-- Scrum Master: Sevcan Doğruyol
+- Sevcan Doğruyol > Developer/Scrum Master
 
-- Developers:
-  * Sefa Cansever
-  * Elif Eryiğit
+- Sefa Cansever > Developer
 
 
 ### Product Name
