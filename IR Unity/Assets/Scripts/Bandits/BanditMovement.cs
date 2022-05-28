@@ -8,18 +8,19 @@ public class BanditMovement : MonoBehaviour
 {
     [SerializeField] float movementSpeed = 1f;
 
-    private Rigidbody2D myRigidbody;
+    Rigidbody2D myRigidbody;
+    BoxCollider2D myBoxCollider;
     
     void Start()
     {
         myRigidbody = GetComponent<Rigidbody2D>();
-        
+        myBoxCollider = GetComponent<BoxCollider2D>();
     }
 
     
     void Update()
     {
-        if (IsFacingLeft())
+        if (IsFacingRight())
         {
             myRigidbody.velocity = new Vector2(movementSpeed, 0f);
             
@@ -30,9 +31,9 @@ public class BanditMovement : MonoBehaviour
         }
     }
 
-    private bool IsFacingLeft()
+    private bool IsFacingRight()
     {
-        return transform.localScale.x < Mathf.Epsilon;
+        return transform.localScale.x > Mathf.Epsilon;
     }
 
     private void OnTriggerExit2D(Collider2D collision)

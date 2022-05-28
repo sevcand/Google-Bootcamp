@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 7216571631398414019}
   - component: {fileID: 7764115886185365138}
   - component: {fileID: 1492201076416563861}
-  - component: {fileID: 6288202272690383898}
-  - component: {fileID: 6972108811745803187}
+  - component: {fileID: 4412839679335937301}
+  - component: {fileID: 971719562}
   m_Layer: 0
   m_Name: BanditOne 1
   m_TagString: Bandits
@@ -134,7 +134,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2586949, y: 2.0454822}
   m_EdgeRadius: 0
---- !u!114 &6288202272690383898
+--- !u!114 &4412839679335937301
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -146,8 +146,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f48673cad4c63ed45a5a09a830a731a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 0.6
---- !u!95 &6972108811745803187
+  movementSpeed: 0.7
+--- !u!95 &971719562
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -157,7 +157,7 @@ Animator:
   m_GameObject: {fileID: 1418493400194083327}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b95265f99b6d90e438df1308a89c8bab, type: 2}
+  m_Controller: {fileID: 9100000, guid: 5423c5aa6f169cf44b871a5b3d2e008c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
