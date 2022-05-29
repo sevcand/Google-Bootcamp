@@ -425,18 +425,3 @@ IR Unity/Library/ArtifactDB
 IR Unity/Library/CurrentLayout-default.dwlt
 IR Unity/Library/SceneVisibilityState.asset
 IR Unity/Library/SourceAssetDB
-IR Unity/Assembly-CSharp.csproj
-IR Unity/IR Unity.sln
-IR Unity/Library/ArtifactDB
-IR Unity/Library/ArtifactDB-lock
-IR Unity/Library/CurrentLayout-default.dwlt
-IR Unity/Library/CurrentMaximizeLayout.dwlt
-IR Unity/Library/PackageManager/ProjectCache
-IR Unity/Library/PackageManager/ProjectCache.md5
-IR Unity/Library/SceneVisibilityState.asset
-IR Unity/Library/ScriptAssemblies/Assembly-CSharp.dll
-IR Unity/Library/ScriptAssemblies/Assembly-CSharp.pdb
-IR Unity/Library/SourceAssetDB
-IR Unity/Library/SourceAssetDB-lock
-IR Unity/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
-IR Unity/Logs/shadercompiler-UnityShaderCompiler.exe0.log
