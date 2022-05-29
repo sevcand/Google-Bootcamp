@@ -1,5 +1,0 @@
-sceneSetups:
-- path: "Assets/Scenes/\u0130kinci Sahne.unity"
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
