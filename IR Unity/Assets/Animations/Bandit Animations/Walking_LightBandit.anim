@@ -19,21 +19,21 @@ AnimationClip:
   m_FloatCurves: []
   m_PPtrCurves:
   - curve:
-    - time: 0.083333336
+    - time: 0
       value: {fileID: 21300016, guid: f2ed27d6c1c3ccc48959bcca269d88f0, type: 3}
     - time: 0.26666668
       value: {fileID: 21300018, guid: f2ed27d6c1c3ccc48959bcca269d88f0, type: 3}
-    - time: 0.43333334
+    - time: 0.51666665
       value: {fileID: 21300020, guid: f2ed27d6c1c3ccc48959bcca269d88f0, type: 3}
-    - time: 0.6166667
+    - time: 0.76666665
       value: {fileID: 21300022, guid: f2ed27d6c1c3ccc48959bcca269d88f0, type: 3}
-    - time: 0.8
+    - time: 1.0666667
       value: {fileID: 21300024, guid: f2ed27d6c1c3ccc48959bcca269d88f0, type: 3}
-    - time: 0.98333335
+    - time: 1.3166667
       value: {fileID: 21300026, guid: f2ed27d6c1c3ccc48959bcca269d88f0, type: 3}
-    - time: 1.15
+    - time: 1.5666667
       value: {fileID: 21300028, guid: f2ed27d6c1c3ccc48959bcca269d88f0, type: 3}
-    - time: 1.3333334
+    - time: 1.8333334
       value: {fileID: 21300030, guid: f2ed27d6c1c3ccc48959bcca269d88f0, type: 3}
     attribute: m_Sprite
     path: Bandit Sprites
@@ -67,7 +67,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.35
+    m_StopTime: 1.85
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

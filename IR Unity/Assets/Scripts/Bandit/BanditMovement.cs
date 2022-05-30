@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.Experimental.GraphView;
+using UnityEditor.SearchService;
 using UnityEngine;
 
 public class BanditMovement : MonoBehaviour
@@ -14,13 +15,16 @@ public class BanditMovement : MonoBehaviour
     public float attack_distance;
     public float moving_speed;
     public float timer;
+    public Transform left_limit;
+    public Transform right_limit;
+    
     
     #endregion
 
     #region Private Variables
     
     private Animator anim;
-    private GameObject target;
+    private Transform target;
     private RaycastHit2D hit;
     private float distance;
     private bool attack_mode;
@@ -34,14 +38,24 @@ public class BanditMovement : MonoBehaviour
     {
         int_timer = timer;
         anim = GetComponent<Animator>();
-        
+        SelectTarget();
     }
 
     void Update()
     {
+        if (!attack_mode)
+        {
+            Move();
+        }
+
+        if (!InsideofLimits() && !in_range && !anim.GetCurrentAnimatorStateInfo(0).IsName("Attack_LightBandit"))
+        {
+            SelectTarget();
+        }
+        
         if (in_range)
         {
-            hit = Physics2D.Raycast(leeway.position, Vector2.left, leeway_length, leeway_mask);
+            hit = Physics2D.Raycast(leeway.position, transform.right, leeway_length, leeway_mask);
             RayCastDebugger();
         }
 
@@ -58,7 +72,6 @@ public class BanditMovement : MonoBehaviour
 
         if (in_range == false)
         {
-            anim.SetBool("CanWalk", false);
             StopAttack();
             
         }
@@ -69,20 +82,19 @@ public class BanditMovement : MonoBehaviour
     {
         if (trig.gameObject.tag == "Player")
         {
-            target = trig.gameObject;
+            target = trig.transform;
             in_range = true;
-            
+            Flip();
         }
         
     }
 
     void BanditAI()
     {
-        distance = Vector2.Distance(transform.position, target.transform.position);
+        distance = Vector2.Distance(transform.position, target.position);
 
         if (distance > attack_distance)
         {
-            Move();
             StopAttack();
             
         }
@@ -106,7 +118,7 @@ public class BanditMovement : MonoBehaviour
         
         if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Attack_LightBandit"))
         {
-            Vector2 targetPosition = new Vector2(target.transform.position.x, transform.position.y);
+            Vector2 targetPosition = new Vector2(target.position.x, transform.position.y);
             transform.position = Vector2.MoveTowards(transform.position, targetPosition, moving_speed * Time.deltaTime);
             
         }
@@ -147,12 +159,12 @@ public class BanditMovement : MonoBehaviour
     {
         if (distance > attack_distance)
         {
-            Debug.DrawRay(leeway.position, Vector2.left * leeway_length, Color.blue);
+            Debug.DrawRay(leeway.position, transform.right * leeway_length, Color.blue);
 
         }
         else if (distance < attack_distance)
         {
-            Debug.DrawRay(leeway.position, Vector2.left * leeway_length, Color.yellow);
+            Debug.DrawRay(leeway.position, transform.right * leeway_length, Color.yellow);
 
         }
     }
@@ -161,5 +173,48 @@ public class BanditMovement : MonoBehaviour
     {
         cooling = true;
         
+    }
+
+    private bool InsideofLimits()
+    {
+        return transform.position.x > left_limit.position.x && transform.position.x < right_limit.position.x;
+        
+    }
+
+    private void SelectTarget()
+    {
+        float distance_to_left = Vector2.Distance(transform.position, left_limit.position);
+        float distance_to_right = Vector2.Distance(transform.position, right_limit.position);
+
+        if (distance_to_left > distance_to_right)
+        {
+            target = left_limit;
+            
+        }
+        
+        else if (distance_to_left < distance_to_right)
+        {
+            target = right_limit;
+            
+        }
+
+        Flip();
+        
+    }
+
+    private void Flip()
+    {
+        Vector3 rotation = transform.eulerAngles;
+
+        if (transform.position.x > target.position.x)
+        {
+            rotation.y = 180;
+            
+        }
+
+        else 
+        {
+            rotation.y = 0;
+        }
     }
 }
