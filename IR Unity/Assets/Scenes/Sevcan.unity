@@ -467,7 +467,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 241136105}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Leeway
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -652,7 +652,7 @@ GameObject:
   m_Component:
   - component: {fileID: 294870432}
   - component: {fileID: 294870433}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bandit Sprites
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -977,9 +977,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1771216058, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 111755813442870902, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6323719953710832613, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
       propertyPath: m_Name
       value: HeroKnight
+      objectReference: {fileID: 0}
+    - target: {fileID: 6323719953710832613, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7087049454815086010, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7967423529762950208, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8413529789942519730, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
       propertyPath: m_RootOrder
@@ -1024,6 +1044,14 @@ PrefabInstance:
     - target: {fileID: 8413529789942519730, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631832243428726876, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 9013660374251658338, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
@@ -2133,7 +2161,7 @@ GameObject:
   - component: {fileID: 982848457}
   - component: {fileID: 982848459}
   - component: {fileID: 982848458}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bandit Colliders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2183,7 +2211,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.008603215, y: 1.0508782}
+  m_Offset: {x: 0.008603215, y: 0.8853245}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2194,7 +2222,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0172063, y: 1.9566352}
+  m_Size: {x: 1.0172063, y: 1.6255279}
   m_EdgeRadius: 0
 --- !u!1 &1032555783
 GameObject:
@@ -2206,7 +2234,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1032555784}
   - component: {fileID: 1032555785}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sword
   m_TagString: Untagged
   m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
@@ -2237,7 +2265,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.14220849, y: -0.09916717}
@@ -3097,7 +3125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1402531962}
   - component: {fileID: 1402531963}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TriggerArea
   m_TagString: Untagged
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
@@ -3112,8 +3140,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1402531961}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.568, y: 0.746, z: 0}
-  m_LocalScale: {x: 4.454649, y: 1.1242017, z: 1.1242017}
+  m_LocalPosition: {x: -1.52, y: 0.746, z: 0}
+  m_LocalScale: {x: 2.7284725, y: 1.1242017, z: 1.1242017}
   m_Children: []
   m_Father: {fileID: 1693201301}
   m_RootOrder: 3
@@ -3128,10 +3156,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.38234845, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3142,7 +3170,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.115453, y: 1}
   m_EdgeRadius: 0
 --- !u!1 &1413882524
 GameObject:
@@ -5930,7 +5958,7 @@ GameObject:
   - component: {fileID: 1693201302}
   - component: {fileID: 1693201304}
   - component: {fileID: 1693201305}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bandit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5976,7 +6004,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!95 &1693201303
 Animator:
   serializedVersion: 3
@@ -6059,14 +6087,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 416e62ab959425c44aa6fae4a08d19e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leeway: {fileID: 0}
+  leeway: {fileID: 241136105}
   leeway_mask:
     serializedVersion: 2
-    m_Bits: 0
-  leeway_length: 0
-  attack_distance: 0
-  moving_speed: 0
-  timer: 0
+    m_Bits: 1024
+  leeway_length: 5
+  attack_distance: 2
+  moving_speed: 2
+  timer: 3
 --- !u!1 &1705610639
 GameObject:
   m_ObjectHideFlags: 0

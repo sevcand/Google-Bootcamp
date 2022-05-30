@@ -43,12 +43,29 @@ public class BanditMovement : MonoBehaviour
         {
             hit = Physics2D.Raycast(leeway.position, Vector2.left, leeway_length, leeway_mask);
             RayCastDebugger();
-            
         }
 
+        if (hit.collider != null)
+        {
+            BanditAI();
+            
+        }
+        
+        else if (hit.collider == null)
+        {
+            in_range = false;
+        }
+
+        if (in_range == false)
+        {
+            anim.SetBool("CanWalk", false);
+            StopAttack();
+            
+        }
+        
     }
 
-    private void OnTriggerEnter2D(Collider2D trig)
+    void OnTriggerEnter2D(Collider2D trig)
     {
         if (trig.gameObject.tag == "Player")
         {
@@ -59,11 +76,90 @@ public class BanditMovement : MonoBehaviour
         
     }
 
-    void RayCastDebugger()
+    void BanditAI()
     {
-        if (distance > attack_distance) ;
-        Debug.DrawRay(leeway.position, Vector2.left * leeway_length, Color.red);
+        distance = Vector2.Distance(transform.position, target.transform.position);
+
+        if (distance > attack_distance)
+        {
+            Move();
+            StopAttack();
+            
+        }
         
+        else if (distance <= attack_distance && cooling == false)
+        {
+            Attack();
+        }
+
+        if (cooling)
+        {
+            anim.SetBool("Attack", false);
+            CoolDown();
+            
+        }
+    }
+
+    void Move()
+    {
+        anim.SetBool("CanWalk", true);
+        
+        if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Attack_LightBandit"))
+        {
+            Vector2 targetPosition = new Vector2(target.transform.position.x, transform.position.y);
+            transform.position = Vector2.MoveTowards(transform.position, targetPosition, moving_speed * Time.deltaTime);
+            
+        }
     }
     
+    void Attack()
+    {
+        timer = int_timer;
+        attack_mode = true;
+        
+        anim.SetBool("CanWalk", false);
+        anim.SetBool("Attack", true);
+        
+    }
+
+    void CoolDown()
+    {
+        timer -= Time.deltaTime;
+
+        if (timer <= 0 && cooling && attack_mode)
+        {
+            cooling = false;
+            timer = int_timer;
+            
+        }
+    }
+
+    void StopAttack()
+    {
+        cooling = false;
+        attack_mode = false;
+        
+        anim.SetBool("Attack", false);
+        
+    }
+
+    void RayCastDebugger()
+    {
+        if (distance > attack_distance)
+        {
+            Debug.DrawRay(leeway.position, Vector2.left * leeway_length, Color.blue);
+
+        }
+        else if (distance < attack_distance)
+        {
+            Debug.DrawRay(leeway.position, Vector2.left * leeway_length, Color.yellow);
+
+        }
+    }
+
+    public void TriggerCooling()
+    {
+        cooling = true;
+        
+    }
 }
