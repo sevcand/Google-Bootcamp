@@ -43,9 +43,18 @@ public class BanditMovement : MonoBehaviour
 
     void Update()
     {
-        if (!attack_mode)
+        if (!attack_mode && !in_range)
         {
-            Move();
+            anim.GetCurrentAnimatorStateInfo(0).IsName("Idle_LightBandit");
+            //arkadaşlar burayı saat 11:50'de ekledim. sürekli patrol etmesi sorun oluyor demiştim.
+            //hem range içinde değilken, hem attack mode'da değilken yürümesindense karakter sahneye giriş yaptıktan sonra
+            //attack ve patrol modeları başlamış olacak. 4.videoda bunu iyileştirecek bir şey varsa, onunla değiştiririm
+            //tabii ki.
+        }
+
+        if (!attack_mode && in_range)
+        {
+            Move(); 
         }
 
         if (!InsideofLimits() && !in_range && !anim.GetCurrentAnimatorStateInfo(0).IsName("Attack_LightBandit"))
