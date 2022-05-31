@@ -7392,7 +7392,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1001 &2816083475423733622
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7605,7 +7605,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   popUpCanvas: {fileID: 830653848391801244}
-  _dialogueSet: {fileID: 11400000, guid: dcb8d98b0f9f8c8498b8d3bafb8aedc4, type: 2}
+  _dialogueSet: {fileID: 11400000, guid: 1c13e083e4323c64a9bbe43c1b4fbe08, type: 2}
   textUI: {fileID: 3907053712846057691}
   _dialogueShowingTime: 5
   _newSentenceReadyTime: 15
@@ -7656,7 +7656,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: denemeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
