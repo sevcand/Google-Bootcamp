@@ -9,14 +9,15 @@ public class BanditMovement : MonoBehaviour
 {
     #region Public Variables
     
-    public Transform leeway;
-    public LayerMask leeway_mask;
-    public float leeway_length;
     public float attack_distance;
     public float moving_speed;
     public float timer;
     public Transform left_limit;
     public Transform right_limit;
+    [HideInInspector] public Transform target;
+    [HideInInspector] public bool in_range;
+    public GameObject Hotzone;
+    public GameObject TriggerArea;
     
     
     #endregion
@@ -24,11 +25,8 @@ public class BanditMovement : MonoBehaviour
     #region Private Variables
     
     private Animator anim;
-    private Transform target;
-    private RaycastHit2D hit;
     private float distance;
     private bool attack_mode;
-    private bool in_range;
     private bool cooling;
     private float int_timer;
     
@@ -36,67 +34,44 @@ public class BanditMovement : MonoBehaviour
 
     private void Awake()
     {
+        SelectTarget();
         int_timer = timer;
         anim = GetComponent<Animator>();
-        SelectTarget();
+        
     }
 
     void Update()
     {
-        if (!attack_mode && !in_range)
-        {
-            anim.GetCurrentAnimatorStateInfo(0).IsName("Idle_LightBandit");
-            //arkadaşlar burayı saat 11:50'de ekledim. sürekli patrol etmesi sorun oluyor demiştim.
-            //hem range içinde değilken, hem attack mode'da değilken yürümesindense karakter sahneye giriş yaptıktan sonra
-            //attack ve patrol modeları başlamış olacak. 4.videoda bunu iyileştirecek bir şey varsa, onunla değiştiririm
-            //tabii ki.
-        }
-
+        
         if (!attack_mode && in_range)
         {
             Move(); 
         }
 
+        //attack animasyonunun trigger sağlamak için aşağıdaki satırı ve anim.set.boolu yazdım, işe yaramadı//
+        //if (attack_mode && in_range)
+        //{
+        //    anim.GetCurrentAnimatorStateInfo(0).IsName("Attack_LightBandit");
+        //}
+
         if (!InsideofLimits() && !in_range && !anim.GetCurrentAnimatorStateInfo(0).IsName("Attack_LightBandit"))
         {
             SelectTarget();
         }
-        
-        if (in_range)
-        {
-            hit = Physics2D.Raycast(leeway.position, transform.right, leeway_length, leeway_mask);
-            RayCastDebugger();
-        }
-
-        if (hit.collider != null)
-        {
-            BanditAI();
-            
-        }
-        
-        else if (hit.collider == null)
-        {
-            in_range = false;
-        }
 
         if (in_range == false)
         {
+            //burası da yorum olabilir, 3.videoda kaldırılıyor. ancak bu satırı yorumlayınca
+            //trigger areadan karakter çıktığı halde bandit koşma animasyonunda kalıyor.
+            //bu satır duruyorken karakter trigger areadan çıktığı anda bandit idle animasyona dönebiliyor
+            anim.SetBool("CanWalk", false);
+            //
             StopAttack();
             
         }
         
     }
-
-    void OnTriggerEnter2D(Collider2D trig)
-    {
-        if (trig.gameObject.tag == "Player")
-        {
-            target = trig.transform;
-            in_range = true;
-            Flip();
-        }
-        
-    }
+    
 
     void BanditAI()
     {
@@ -123,7 +98,9 @@ public class BanditMovement : MonoBehaviour
 
     void Move()
     {
+        //alttaki satır normalde 3.videoda kaldırılıyor ancak kaldırılınca dönüş hareketini bozuyor tamamen
         anim.SetBool("CanWalk", true);
+        //üstteki bu satırda CanWalk yerine Attack parametresini yazınca bu kez hareket etmeden saldırıyor sadece
         
         if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Attack_LightBandit"))
         {
@@ -163,20 +140,7 @@ public class BanditMovement : MonoBehaviour
         anim.SetBool("Attack", false);
         
     }
-
-    void RayCastDebugger()
-    {
-        if (distance > attack_distance)
-        {
-            Debug.DrawRay(leeway.position, transform.right * leeway_length, Color.blue);
-
-        }
-        else if (distance < attack_distance)
-        {
-            Debug.DrawRay(leeway.position, transform.right * leeway_length, Color.yellow);
-
-        }
-    }
+    
 
     public void TriggerCooling()
     {
@@ -190,7 +154,7 @@ public class BanditMovement : MonoBehaviour
         
     }
 
-    private void SelectTarget()
+    public void SelectTarget()
     {
         float distance_to_left = Vector2.Distance(transform.position, left_limit.position);
         float distance_to_right = Vector2.Distance(transform.position, right_limit.position);
@@ -211,19 +175,21 @@ public class BanditMovement : MonoBehaviour
         
     }
 
-    private void Flip()
+    public void Flip()
     {
         Vector3 rotation = transform.eulerAngles;
 
         if (transform.position.x > target.position.x)
         {
+            rotation.y = 0;
+            
+        }
+        else 
+        {
             rotation.y = 180;
             
         }
 
-        else 
-        {
-            rotation.y = 0;
-        }
-    }
+        transform.eulerAngles = rotation;
+    }   
 }
