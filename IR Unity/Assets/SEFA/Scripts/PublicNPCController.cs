@@ -62,9 +62,8 @@ public class PublicNPCController : MonoBehaviour
     {
 
         int listLenght = _dialogueSet.sentences.Length;
-        int randomNumber = Random.Range(0, listLenght + 1);
-        Debug.Log(_dialogueSet.sentences[randomNumber]);
-
+        int randomNumber = Random.Range(0, listLenght);
+       
         return _dialogueSet.sentences[randomNumber];
     }
 
