@@ -113,3 +113,38 @@ Here, you can find the [Miro Scrum Board](https://miro.com/app/board/uXjVO2v4jX0
 
 # End of Sprint #2
 
+## Sprint #3
+
+*  **Sprint Notes:** Story points and user stories have been explained product backlog entries. The details could be found in full entry mode.
+*  **Possible Sprint Completion:** 208 Points
+*  **Backlog Orgnization and Story Choices:** Product Backlog is organized to detail every feature that is predicted to be implemented to the product by the end of the 3rd Sprint. Stories were based on how the product could be made more appealing to the user with graphics, animation, asset quality and so on.
+*  **Daily Scrum:** As stated at the Sprint #1 report and the Sprint #2 reports, Daily Scrums were conducted only on Slack (with the exception of few cases where Whatsapp was a means of communication with regards to push/pull requests, asset discussions and so on. It was decided to exclude the screenshots of these conversations from this report for a more formal outlook). The screenshots to said chats could be seen on the Miro Board.
+*  **Sprint Board Screenshots:** Below you can see the screenshots (1) the goal for the Sprint, (2) the circumstances at the end of the Sprint.
+
+
+![Screenshot (66)](https://user-images.githubusercontent.com/95580142/171392637-4d8c1a86-5c21-44a3-8f91-81314c967355.png)
+
+
+insert end of sprint ss
+
+* **Product Backlog:** Below you can see the screenshot of the product backlog
+
+
+![Screenshot (67)](https://user-images.githubusercontent.com/95580142/171392826-4c77e2da-25e6-48d3-8180-ab6738c9d162.png)
+
+
+* **The progress in the product as of the end of Sprint #2:** Below you can see screenshots from the product's the latest condition
+
+
+insert last state ss
+
+* **Sprint Review:** Due to the workload we are facing in the last sprint, we decided that it would be best to focus our efforts on an MVP for the Academy's review. However, we plan to continue to collaborate in the future to improve our skills through this project and on the tools of collaboration.
+
+* **Sprint Retrospective:** As it was the case, and stated in the report of the Sprint #2, we've done our best to manage our workload in order to create an MVP. While we've had more ideas and a better imagination for our game, sadly mostly due to a teammate leaving our team at 5th week of the 6-week Bootcamp program, unfortunately without completing any of their assigned tasks we've struggled to create even the MVP that we would like to present to the experts of the Academy. However, we still value the remarkable lessons we've gathered from the Google's Game and Application Academy Bootcamp. And we are incredibly grateful for the value that this program has provided us with, through a first-time, hands on collaboration of an actual project from start to finish. 
+    
+
+#### Notes: The Daily Scrum Screenshots can be found in the same adress as they were in for the Sprint #1 report: https://miro.com/app/board/uXjVO2v4jX0=/?share_link_id=499352999756
+
+# End of Sprint #3, The Last Sprint of Google's Game and Application Academy Bootcamp
+
+Thank you to the Academy employees and volunteers for their support and encouragement.
