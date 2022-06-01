@@ -122,7 +122,7 @@ Here, you can find the [Miro Scrum Board](https://miro.com/app/board/uXjVO2v4jX0
 *  **Sprint Board Screenshots:** Below you can see the screenshots (1) the goal for the Sprint, (2) the circumstances at the end of the Sprint.
 
 
-![Screenshot (66)](https://user-images.githubusercontent.com/95580142/171392637-4d8c1a86-5c21-44a3-8f91-81314c967355.png)
+![Screenshot (68)](https://user-images.githubusercontent.com/95580142/171396315-85d9a3d8-f246-45ec-bb12-b3cd5d4b5385.png)
 
 
 insert end of sprint ss
@@ -130,10 +130,10 @@ insert end of sprint ss
 * **Product Backlog:** Below you can see the screenshot of the product backlog
 
 
-![Screenshot (67)](https://user-images.githubusercontent.com/95580142/171392826-4c77e2da-25e6-48d3-8180-ab6738c9d162.png)
+![Screenshot (67)](https://user-images.githubusercontent.com/95580142/171396287-9f442760-1a40-4fbf-aaa0-b1da019e248c.png)
 
 
-* **The progress in the product as of the end of Sprint #2:** Below you can see screenshots from the product's the latest condition
+* **The status of the product as of the end of Sprint #3:** Below you can see screenshots from the product's the latest condition
 
 
 insert last state ss
