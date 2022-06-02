@@ -28,7 +28,6 @@ public class HeroKnight : MonoBehaviour {
 
 
 
-
     
     void Start ()
     {
