@@ -34,6 +34,7 @@ public class PublicNPCController : MonoBehaviour
             if (DialogueVisibleRandom == 1 && isReadyForNewSentence)
             {
                 string sentence = RandomSentence();
+                Debug.Log(sentence);
                 ShowDialogue(sentence);
             }
         }
