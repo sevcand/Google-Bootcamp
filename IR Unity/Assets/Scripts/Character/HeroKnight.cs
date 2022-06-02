@@ -26,7 +26,7 @@ public class HeroKnight : MonoBehaviour {
     private float               m_rollDuration = 8.0f / 14.0f;
     private float               m_rollCurrentTime;
 
-    PlayerCombat playercombat;
+
 
 
     
@@ -39,7 +39,7 @@ public class HeroKnight : MonoBehaviour {
         m_wallSensorR2 = transform.Find("WallSensor_R2").GetComponent<Sensor_HeroKnight>();
         m_wallSensorL1 = transform.Find("WallSensor_L1").GetComponent<Sensor_HeroKnight>();
         m_wallSensorL2 = transform.Find("WallSensor_L2").GetComponent<Sensor_HeroKnight>();
-        playercombat = GetComponent<PlayerCombat>();
+       
     }
 
     
@@ -113,7 +113,7 @@ public class HeroKnight : MonoBehaviour {
         {
             m_currentAttack++;
 
-            playercombat.DamageEnemy();
+            
             
             if (m_currentAttack > 3)
                 m_currentAttack = 1;
