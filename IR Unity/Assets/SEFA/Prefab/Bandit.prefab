@@ -208,6 +208,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hotzone
       objectReference: {fileID: 0}
+    - target: {fileID: 6635741820569381537, guid: 65d4d80e357ffa34fad8bf791acd912b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65d4d80e357ffa34fad8bf791acd912b, type: 3}
 --- !u!1 &6370273953181404850 stripped

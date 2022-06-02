@@ -42,10 +42,16 @@ public class BanditMovement : MonoBehaviour
 
     void Update()
     {
+        /*  SORUNLAR
+
+        Atak durumunu ele alan bir koşul yok
+         
+         */
         
         if (!attack_mode && in_range)
         {
             Move(); 
+            Debug.Log("Move çalıştı");
         }
 
         //attack animasyonunun trigger sağlamak için aşağıdaki satırı ve anim.set.boolu yazdım, işe yaramadı//
@@ -56,11 +62,13 @@ public class BanditMovement : MonoBehaviour
 
         if (!InsideofLimits() && !in_range && !anim.GetCurrentAnimatorStateInfo(0).IsName("Attack_LightBandit"))
         {
+            Debug.Log("select target çalıştı");
             SelectTarget();
         }
 
         if (in_range == false)
         {
+            Debug.Log("alan dışında");
             //burası da yorum olabilir, 3.videoda kaldırılıyor. ancak bu satırı yorumlayınca
             //trigger areadan karakter çıktığı halde bandit koşma animasyonunda kalıyor.
             //bu satır duruyorken karakter trigger areadan çıktığı anda bandit idle animasyona dönebiliyor
@@ -75,6 +83,10 @@ public class BanditMovement : MonoBehaviour
 
     void BanditAI()
     {
+        // BURASI DÜŞMAN OYUNCUYA YAKLAŞMAYA BAŞLAYINCA ÇALIŞMASI GEREK
+        // YANİ MOVE() 'DA
+
+
         distance = Vector2.Distance(transform.position, target.position);
 
         if (distance > attack_distance)
@@ -106,12 +118,15 @@ public class BanditMovement : MonoBehaviour
         {
             Vector2 targetPosition = new Vector2(target.position.x, transform.position.y);
             transform.position = Vector2.MoveTowards(transform.position, targetPosition, moving_speed * Time.deltaTime);
+            BanditAI();
             
         }
     }
     
     void Attack()
     {
+        Debug.Log("Attack fonksiyonu çalıştı");
+
         timer = int_timer;
         attack_mode = true;
         
@@ -134,6 +149,8 @@ public class BanditMovement : MonoBehaviour
 
     void StopAttack()
     {
+        Debug.Log("stop attack çalıştı");
+
         cooling = false;
         attack_mode = false;
         
