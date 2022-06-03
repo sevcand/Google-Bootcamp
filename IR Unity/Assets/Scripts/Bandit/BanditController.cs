@@ -5,10 +5,10 @@ using UnityEditor.Experimental.GraphView;
 using UnityEditor.SearchService;
 using UnityEngine;
 
-public class BanditMovement : MonoBehaviour
+public class BanditController : MonoBehaviour
 {
     #region Public Variables
-    
+
     public float attack_distance;
     public float moving_speed;
     public float timer;
@@ -18,26 +18,33 @@ public class BanditMovement : MonoBehaviour
     [HideInInspector] public bool in_range;
     public GameObject Hotzone;
     public GameObject TriggerArea;
-    
-    
+    public float damage;
+
+
     #endregion
 
     #region Private Variables
-    
+
     private Animator anim;
     private float distance;
     private bool attack_mode;
     private bool cooling;
     private float int_timer;
-    
+    private bool isDeath;
+
     #endregion
+
+    [Header("HEALTH")]
+    public float health ;
 
     private void Awake()
     {
-        SelectTarget();
+        // SelectTarget();
         int_timer = timer;
         anim = GetComponent<Animator>();
-        
+        health = 100f;
+        isDeath = false;
+
     }
 
     void Update()
@@ -47,10 +54,10 @@ public class BanditMovement : MonoBehaviour
         Atak durumunu ele alan bir koşul yok
          
          */
-        
-        if (!attack_mode && in_range)
+
+        if (!attack_mode && in_range && !isDeath)
         {
-            Move(); 
+            Move();
             Debug.Log("Move çalıştı");
         }
 
@@ -60,10 +67,21 @@ public class BanditMovement : MonoBehaviour
         //    anim.GetCurrentAnimatorStateInfo(0).IsName("Attack_LightBandit");
         //}
 
+        if (in_range && Vector2.Distance(transform.position, target.position) > 1.5f)
+        {
+            Debug.Log("Yeni koşul !!!");
+            StopAttack();
+        }
+
+        if(health<=0)
+        {
+            DeathBandit();
+        }
+
         if (!InsideofLimits() && !in_range && !anim.GetCurrentAnimatorStateInfo(0).IsName("Attack_LightBandit"))
         {
             Debug.Log("select target çalıştı");
-            SelectTarget();
+            //  SelectTarget();
         }
 
         if (in_range == false)
@@ -75,31 +93,48 @@ public class BanditMovement : MonoBehaviour
             anim.SetBool("CanWalk", false);
             //
             StopAttack();
-            
+
         }
+
+    }
+
+    void DeathBandit()
+    {
+        // ölürken olacaklar
+        // animasyon, hareket edememeli, atak yapamamalı
+
+        Debug.Log("Bandit öldü!");
+        isDeath = true;
+        StopAttack();
+        anim.SetBool("isDeath", true);
         
     }
-    
+
+    public void DecreaseHealth()
+    {
+        health = health - damage ;
+    }
+
 
     void BanditAI()
     {
         // BURASI DÜŞMAN OYUNCUYA YAKLAŞMAYA BAŞLAYINCA ÇALIŞMASI GEREK
         // YANİ MOVE() 'DA
 
-
+        Debug.Log("BanditAI çalıştı");
         distance = Vector2.Distance(transform.position, target.position);
 
         if (distance > attack_distance)
         {
             StopAttack();
-            
+
         }
-        
+
         else if (distance <= attack_distance && cooling == false)
         {
             Attack();
         }
-        
+
         else if (distance <= attack_distance && cooling == true)
         {
             StopAttack();
@@ -110,7 +145,7 @@ public class BanditMovement : MonoBehaviour
         {
             anim.SetBool("Attack", false);
             CoolDown();
-            
+
         }
     }
 
@@ -119,26 +154,26 @@ public class BanditMovement : MonoBehaviour
         //alttaki satır normalde 3.videoda kaldırılıyor ancak kaldırılınca dönüş hareketini bozuyor tamamen
         anim.SetBool("CanWalk", true);
         //üstteki bu satırda CanWalk yerine Attack parametresini yazınca bu kez hareket etmeden saldırıyor sadece
-        
+
         if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Attack_LightBandit"))
         {
             Vector2 targetPosition = new Vector2(target.position.x, transform.position.y);
             transform.position = Vector2.MoveTowards(transform.position, targetPosition, moving_speed * Time.deltaTime);
             BanditAI();
-            
+
         }
     }
-    
+
     void Attack()
     {
         Debug.Log("Attack fonksiyonu çalıştı");
 
         timer = int_timer;
         attack_mode = true;
-        
+
         anim.SetBool("CanWalk", false);
         anim.SetBool("Attack", true);
-        
+
     }
 
     void CoolDown()
@@ -149,7 +184,7 @@ public class BanditMovement : MonoBehaviour
         {
             cooling = false;
             timer = int_timer;
-            
+
         }
     }
 
@@ -159,44 +194,44 @@ public class BanditMovement : MonoBehaviour
 
         cooling = false;
         attack_mode = false;
-        
+
         anim.SetBool("Attack", false);
-        
+
     }
-    
+
 
     public void TriggerCooling()
     {
         cooling = true;
-        
+
     }
 
     private bool InsideofLimits()
     {
         return transform.position.x > left_limit.position.x && transform.position.x < right_limit.position.x;
-        
+
     }
 
-    public void SelectTarget()
-    {
-        float distance_to_left = Vector2.Distance(transform.position, left_limit.position);
-        float distance_to_right = Vector2.Distance(transform.position, right_limit.position);
+    /* public void SelectTarget()
+     {
+         float distance_to_left = Vector2.Distance(transform.position, left_limit.position);
+         float distance_to_right = Vector2.Distance(transform.position, right_limit.position);
 
-        if (distance_to_left > distance_to_right)
-        {
-            target = left_limit;
-            
-        }
-        
-        else if (distance_to_left < distance_to_right)
-        {
-            target = right_limit;
-            
-        }
+         if (distance_to_left > distance_to_right)
+         {
+             target = left_limit;
 
-        Flip();
-        
-    }
+         }
+
+         else if (distance_to_left < distance_to_right)
+         {
+             target = right_limit;
+
+         }
+
+         Flip();
+
+     }  */
 
     public void Flip()
     {
@@ -205,14 +240,14 @@ public class BanditMovement : MonoBehaviour
         if (transform.position.x > target.position.x)
         {
             rotation.y = 0;
-            
+
         }
-        else 
+        else
         {
             rotation.y = 180;
-            
+
         }
 
         transform.eulerAngles = rotation;
-    }   
+    }
 }

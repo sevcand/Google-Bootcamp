@@ -5,13 +5,13 @@ using UnityEngine;
 
 public class HotzoneCheck : MonoBehaviour
 {
-    private BanditMovement bandit_parent;
+    private BanditController bandit_parent;
     private bool in_range;
     private Animator anim;
 
     private void Awake()
     {
-        bandit_parent = GetComponentInParent<BanditMovement>();
+        bandit_parent = GetComponentInParent<BanditController>();
         anim = GetComponentInParent<Animator>();
         
     }
@@ -39,6 +39,6 @@ public class HotzoneCheck : MonoBehaviour
         gameObject.SetActive(false);
         bandit_parent.TriggerArea.SetActive(true);
         bandit_parent.in_range = false;
-        bandit_parent.SelectTarget();
+       // bandit_parent.SelectTarget();
     }
 }

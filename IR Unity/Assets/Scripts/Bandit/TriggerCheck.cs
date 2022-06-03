@@ -5,12 +5,12 @@ using UnityEngine;
 
 public class TriggerCheck : MonoBehaviour
 {
-    private BanditMovement bandit_parent;
+    private BanditController bandit_parent;
 
     private void Awake()
     {
         {
-            bandit_parent = GetComponentInParent<BanditMovement>();
+            bandit_parent = GetComponentInParent<BanditController>();
             
         }
     }
