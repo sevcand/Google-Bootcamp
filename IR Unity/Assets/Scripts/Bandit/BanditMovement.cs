@@ -99,6 +99,12 @@ public class BanditMovement : MonoBehaviour
         {
             Attack();
         }
+        
+        else if (distance <= attack_distance && cooling == true)
+        {
+            StopAttack();
+            anim.GetCurrentAnimatorStateInfo(0).IsName("Idle_LightBandit");
+        }
 
         if (cooling)
         {
