@@ -31,6 +31,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/Desktop/Getting Somewhere/DevTools/Unity/GonBeLit/Assets/Scripts/NextLevel.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -95,6 +98,7 @@
       <workItem from="1654001100874" duration="4289000" />
       <workItem from="1654006302329" duration="3308000" />
       <workItem from="1654162206560" duration="4368000" />
+      <workItem from="1654244023357" duration="7233000" />
     </task>
     <servers />
   </component>
