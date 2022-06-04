@@ -19,6 +19,7 @@ public class BanditController : MonoBehaviour
     public GameObject Hotzone;
     public GameObject TriggerArea;
     public float damage;
+    [HideInInspector] public bool isDeath;
 
 
     #endregion
@@ -30,7 +31,7 @@ public class BanditController : MonoBehaviour
     private bool attack_mode;
     private bool cooling;
     private float int_timer;
-    private bool isDeath;
+    [SerializeField] private GameObject _banditColliders;
 
     #endregion
 
@@ -107,12 +108,15 @@ public class BanditController : MonoBehaviour
         isDeath = true;
         StopAttack();
         anim.SetBool("isDeath", true);
+       // _banditColliders.SetActive(false);
         
     }
 
     public void DecreaseHealth()
     {
         health = health - damage ;
+        // hurt animasyonunu tetikle
+        anim.SetTrigger("Hurt");
     }
 
 

@@ -18,7 +18,7 @@ public class HotzoneCheck : MonoBehaviour
 
     private void Update()
     {
-        if (in_range && !anim.GetCurrentAnimatorStateInfo(0).IsName("Attack_LightBandit"))
+        if (in_range && !bandit_parent.isDeath && !anim.GetCurrentAnimatorStateInfo(0).IsName("Attack_LightBandit"))
         {
             bandit_parent.Flip();
         }
