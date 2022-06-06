@@ -156,7 +156,8 @@ MonoBehaviour:
   isDeath: 0
 <<<<<<< Updated upstream
   health: 0
-  _banditColliders: {fileID: 6370273952721475182}
+  _banditColliders:
+  - {fileID: 0}
   attackPoint: {fileID: 0}
   attackRadius: 0
   playerLayer:
@@ -544,11 +545,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5452378bb8f9f74abc7fc143bde7cb1, type: 3}
---- !u!1 &6370273952721475182 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1554434987402505724, guid: b5452378bb8f9f74abc7fc143bde7cb1, type: 3}
-  m_PrefabInstance: {fileID: 5617594065449368466}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6370273952721475183 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1554434987402505725, guid: b5452378bb8f9f74abc7fc143bde7cb1, type: 3}
