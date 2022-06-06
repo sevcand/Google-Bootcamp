@@ -153,10 +153,14 @@ MonoBehaviour:
   in_range: 0
   Hotzone: {fileID: 6370273953181404850}
   TriggerArea: {fileID: 6370273953935059659}
-  damage: 25
   isDeath: 0
-  _banditColliders: {fileID: 6370273952721475182}
   health: 0
+  _banditColliders: {fileID: 6370273952721475182}
+  attackPoint: {fileID: 0}
+  attackRadius: 0
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1001 &320079310753948691
 PrefabInstance:
   m_ObjectHideFlags: 0

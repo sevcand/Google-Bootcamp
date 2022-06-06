@@ -7305,6 +7305,42 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2210192834313528402, guid: 994064ec17f0a7c4fbb081d0a9916e1b, type: 3}
+      propertyPath: m_Size.x
+      value: 0.18697578
+      objectReference: {fileID: 0}
+    - target: {fileID: 2210192834313528402, guid: 994064ec17f0a7c4fbb081d0a9916e1b, type: 3}
+      propertyPath: m_Size.y
+      value: 0.8163386
+      objectReference: {fileID: 0}
+    - target: {fileID: 2210192834313528402, guid: 994064ec17f0a7c4fbb081d0a9916e1b, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.14220849
+      objectReference: {fileID: 0}
+    - target: {fileID: 2210192834313528402, guid: 994064ec17f0a7c4fbb081d0a9916e1b, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.2128245
+      objectReference: {fileID: 0}
+    - target: {fileID: 2210192834313528403, guid: 994064ec17f0a7c4fbb081d0a9916e1b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.39393786
+      objectReference: {fileID: 0}
+    - target: {fileID: 2210192834313528403, guid: 994064ec17f0a7c4fbb081d0a9916e1b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.39430004
+      objectReference: {fileID: 0}
+    - target: {fileID: 2210192834313528403, guid: 994064ec17f0a7c4fbb081d0a9916e1b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9171757
+      objectReference: {fileID: 0}
+    - target: {fileID: 2210192834313528403, guid: 994064ec17f0a7c4fbb081d0a9916e1b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.39848307
+      objectReference: {fileID: 0}
+    - target: {fileID: 2210192834313528403, guid: 994064ec17f0a7c4fbb081d0a9916e1b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -46.967
+      objectReference: {fileID: 0}
     - target: {fileID: 2210192835267304142, guid: 994064ec17f0a7c4fbb081d0a9916e1b, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -7362,6 +7398,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6370273952807094446, guid: 2c4930883f6477a4293dd38209ed7f6a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.40000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 6370273952807094446, guid: 2c4930883f6477a4293dd38209ed7f6a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.53999996
+      objectReference: {fileID: 0}
+    - target: {fileID: 6370273952807094447, guid: 2c4930883f6477a4293dd38209ed7f6a, type: 3}
+      propertyPath: m_Size.x
+      value: 0.18697578
+      objectReference: {fileID: 0}
+    - target: {fileID: 6370273952807094447, guid: 2c4930883f6477a4293dd38209ed7f6a, type: 3}
+      propertyPath: m_Size.y
+      value: 1.03019
+      objectReference: {fileID: 0}
+    - target: {fileID: 6370273952807094447, guid: 2c4930883f6477a4293dd38209ed7f6a, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.14220849
+      objectReference: {fileID: 0}
+    - target: {fileID: 6370273952807094447, guid: 2c4930883f6477a4293dd38209ed7f6a, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.18323934
+      objectReference: {fileID: 0}
     - target: {fileID: 6370273954025322034, guid: 2c4930883f6477a4293dd38209ed7f6a, type: 3}
       propertyPath: m_Name
       value: Bandit
