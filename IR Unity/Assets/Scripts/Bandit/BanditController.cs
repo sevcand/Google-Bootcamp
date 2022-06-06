@@ -12,14 +12,14 @@ public class BanditController : MonoBehaviour
     public float attack_distance;
     public float moving_speed;
     public float timer;
-    public Transform left_limit;
-    public Transform right_limit;
+   // public Transform left_limit;
+   // public Transform right_limit;
     [HideInInspector] public Transform target;
     [HideInInspector] public bool in_range;
     public GameObject Hotzone;
     public GameObject TriggerArea;
-    public float damage;
     [HideInInspector] public bool isDeath;
+    public float health;
 
 
     #endregion
@@ -31,16 +31,17 @@ public class BanditController : MonoBehaviour
     private bool attack_mode;
     private bool cooling;
     private float int_timer;
-    [SerializeField] private GameObject _banditColliders;
+    [SerializeField] private GameObject[] _banditColliders;
+   // [SerializeField] private Transform attackPoint;
+   // [SerializeField] private float attackRadius;
+    [SerializeField] private LayerMask playerLayer;
 
     #endregion
-
-    [Header("HEALTH")]
-    public float health;
 
     private void Awake()
     {
         // SelectTarget();
+        target = gameObject.transform;
         int_timer = timer;
         anim = GetComponent<Animator>();
         health = 100f;
@@ -79,11 +80,14 @@ public class BanditController : MonoBehaviour
             DeathBandit();
         }
 
+    /*
         if (!InsideofLimits() && !in_range && !anim.GetCurrentAnimatorStateInfo(0).IsName("Attack_LightBandit"))
         {
             Debug.Log("select target çalıştı");
             //  SelectTarget();
         }
+
+    */
 
         if (in_range == false)
         {
@@ -108,13 +112,18 @@ public class BanditController : MonoBehaviour
         isDeath = true;
         StopAttack();
         anim.SetBool("isDeath", true);
-        // _banditColliders.SetActive(false);
+
+        foreach(GameObject obj in _banditColliders )
+        {
+            obj.SetActive(false);
+        }
+        gameObject.GetComponent<Rigidbody2D>().Sleep();
 
     }
 
-    public void DecreaseHealth()
+    public void DecreaseHealth(float attackDamage)
     {
-        health = health - damage;
+        health = health - attackDamage;
         // hurt animasyonunu tetikle
         if (!isDeath)
         {
@@ -196,7 +205,7 @@ public class BanditController : MonoBehaviour
         }
     }
 
-    void StopAttack()
+    public void StopAttack()
     {
         Debug.Log("stop attack çalıştı");
 
@@ -214,11 +223,14 @@ public class BanditController : MonoBehaviour
 
     }
 
+    /*
     private bool InsideofLimits()
     {
         return transform.position.x > left_limit.position.x && transform.position.x < right_limit.position.x;
 
     }
+
+    */
 
     /* public void SelectTarget()
      {
@@ -258,4 +270,17 @@ public class BanditController : MonoBehaviour
 
         transform.eulerAngles = rotation;
     }
+
+/*
+    private void OnDrawGizmos()
+    {
+        if (attackPoint == null)
+        {
+            return;
+        }
+        Gizmos.color = Color.blue;
+        Gizmos.DrawWireSphere(attackPoint.position, attackRadius);
+    }
+
+    */
 }

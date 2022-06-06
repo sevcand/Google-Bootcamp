@@ -39,6 +39,5 @@ public class HotzoneCheck : MonoBehaviour
         gameObject.SetActive(false);
         bandit_parent.TriggerArea.SetActive(true);
         bandit_parent.in_range = false;
-       // bandit_parent.SelectTarget();
     }
 }
