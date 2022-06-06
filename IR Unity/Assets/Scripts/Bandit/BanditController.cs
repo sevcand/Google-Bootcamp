@@ -31,7 +31,7 @@ public class BanditController : MonoBehaviour
     private bool attack_mode;
     private bool cooling;
     private float int_timer;
-    [SerializeField] private GameObject _banditColliders;
+    [SerializeField] private GameObject[] _banditColliders;
     [SerializeField] private Transform attackPoint;
     [SerializeField] private float attackRadius;
     [SerializeField] private LayerMask playerLayer;
@@ -108,7 +108,12 @@ public class BanditController : MonoBehaviour
         isDeath = true;
         StopAttack();
         anim.SetBool("isDeath", true);
-        // _banditColliders.SetActive(false);
+
+        foreach(GameObject obj in _banditColliders )
+        {
+            obj.SetActive(false);
+        }
+        gameObject.GetComponent<Rigidbody2D>().Sleep();
 
     }
 
@@ -196,7 +201,7 @@ public class BanditController : MonoBehaviour
         }
     }
 
-    void StopAttack()
+    public void StopAttack()
     {
         Debug.Log("stop attack çalıştı");
 

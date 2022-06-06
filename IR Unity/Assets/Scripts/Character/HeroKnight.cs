@@ -16,6 +16,7 @@ public class HeroKnight : MonoBehaviour
     [SerializeField] private float attackRadius;
     [SerializeField] private LayerMask enemyLayer;
     [SerializeField] private float attackDamage;
+    [SerializeField] private float playerHealth;
 
     private Animator m_animator;
     private Rigidbody2D m_body2d;
@@ -33,11 +34,16 @@ public class HeroKnight : MonoBehaviour
     private float m_delayToIdle = 0.0f;
     private float m_rollDuration = 8.0f / 14.0f;
     private float m_rollCurrentTime;
+    public bool isPlayerDeath;
+    public bool isBlock;
 
 
     private void Awake()
     {
         attackPoint = rightAttackPoint.position;
+        playerHealth = 100f;
+        isPlayerDeath = false;
+        isBlock = false;
     }
 
     void Start()
@@ -61,15 +67,35 @@ public class HeroKnight : MonoBehaviour
 
         // düşman scriptine ilet
 
-        enemy.gameObject.GetComponentInParent<BanditController>().DecreaseHealth(attackDamage);
+        if (enemy != null)
+        {
+            enemy.gameObject.GetComponentInParent<BanditController>().DecreaseHealth(attackDamage);
+        }
 
-        /* 
-         if (enemy.gameObject.CompareTag("Enemy"))
-         {
-             enemy.gameObject.GetComponentInParent<BanditController>().DecreaseHealth(attackDamage);
-         }
-         */
+    }
 
+    public void DecreasePlayerHealth(float banditAttackDamage)
+    {
+        // oyuncu sağlığından gelen değer kadar düşür
+        // hurt animasyonu çalıştır
+        if (!isBlock)
+        {
+            playerHealth = playerHealth - banditAttackDamage;
+            m_animator.SetTrigger("Hurt");
+        }
+
+    }
+
+    private void PlayerDeath()
+    {
+        // ölme animasyonu
+        // hareket edemesin
+        // ölme durumunda açılacak sahne
+
+        isPlayerDeath = true;
+
+        m_animator.SetBool("noBlood", m_noBlood);
+        m_animator.SetBool("Death", true);
     }
 
     private void OnDrawGizmos()
@@ -105,6 +131,10 @@ public class HeroKnight : MonoBehaviour
 
         m_timeSinceAttack += Time.deltaTime;
 
+        if (playerHealth <= 0 && !isPlayerDeath)
+        {
+            // PlayerDeath();
+        }
 
         if (m_rolling)
             m_rollCurrentTime += Time.deltaTime;
@@ -159,13 +189,14 @@ public class HeroKnight : MonoBehaviour
 
         if (Input.GetKeyDown("e") && !m_rolling)
         {
-            m_animator.SetBool("noBlood", m_noBlood);
-            m_animator.SetTrigger("Death");
+            // m_animator.SetBool("noBlood", m_noBlood);
+            // m_animator.SetTrigger("Death");
         }
 
 
-        else if (Input.GetKeyDown("q") && !m_rolling)
-            m_animator.SetTrigger("Hurt");
+        // else if (Input.GetKeyDown("q") && !m_rolling)
+        //    m_animator.SetTrigger("Hurt");
+
 
 
         else if (Input.GetMouseButtonDown(0) && m_timeSinceAttack > 0.25f && !m_rolling)
@@ -195,11 +226,14 @@ public class HeroKnight : MonoBehaviour
         {
             m_animator.SetTrigger("Block");
             m_animator.SetBool("IdleBlock", true);
+            isBlock = true;
         }
 
         else if (Input.GetMouseButtonUp(1))
+        {
             m_animator.SetBool("IdleBlock", false);
-
+            isBlock = false;
+        }
 
         else if (Input.GetKeyDown("left shift") && !m_rolling && !m_isWallSliding)
         {

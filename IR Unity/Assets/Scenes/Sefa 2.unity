@@ -1004,6 +1004,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6370273954025322035, guid: 2c4930883f6477a4293dd38209ed7f6a, type: 3}
   m_PrefabInstance: {fileID: 6370273952345228710}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &650894888 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6370273952721475182, guid: 2c4930883f6477a4293dd38209ed7f6a, type: 3}
+  m_PrefabInstance: {fileID: 6370273952345228710}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &656399939
 GameObject:
   m_ObjectHideFlags: 0
@@ -1311,6 +1316,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 725599969}
   m_CullTransparentMesh: 1
+--- !u!1 &728722559 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6370273952807094433, guid: 2c4930883f6477a4293dd38209ed7f6a, type: 3}
+  m_PrefabInstance: {fileID: 6370273952345228710}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &728722562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728722559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 478f648022a27e740ba95d296e53a432, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &740416977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7762,6 +7784,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6370273954025322047, guid: 2c4930883f6477a4293dd38209ed7f6a, type: 3}
+      propertyPath: health
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6370273954025322047, guid: 2c4930883f6477a4293dd38209ed7f6a, type: 3}
       propertyPath: attackPoint
       value: 
       objectReference: {fileID: 995498583}
@@ -7773,5 +7799,17 @@ PrefabInstance:
       propertyPath: playerLayer.m_Bits
       value: 1024
       objectReference: {fileID: 0}
+    - target: {fileID: 6370273954025322047, guid: 2c4930883f6477a4293dd38209ed7f6a, type: 3}
+      propertyPath: _banditColliders.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6370273954025322047, guid: 2c4930883f6477a4293dd38209ed7f6a, type: 3}
+      propertyPath: _banditColliders.Array.data[0]
+      value: 
+      objectReference: {fileID: 650894888}
+    - target: {fileID: 6370273954025322047, guid: 2c4930883f6477a4293dd38209ed7f6a, type: 3}
+      propertyPath: _banditColliders.Array.data[1]
+      value: 
+      objectReference: {fileID: 728722559}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c4930883f6477a4293dd38209ed7f6a, type: 3}
