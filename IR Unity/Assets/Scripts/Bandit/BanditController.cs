@@ -18,7 +18,6 @@ public class BanditController : MonoBehaviour
     [HideInInspector] public bool in_range;
     public GameObject Hotzone;
     public GameObject TriggerArea;
-    public float damage;
     [HideInInspector] public bool isDeath;
 
 
@@ -112,9 +111,9 @@ public class BanditController : MonoBehaviour
 
     }
 
-    public void DecreaseHealth()
+    public void DecreaseHealth(float attackDamage)
     {
-        health = health - damage;
+        health = health - attackDamage;
         // hurt animasyonunu tetikle
         if (!isDeath)
         {
