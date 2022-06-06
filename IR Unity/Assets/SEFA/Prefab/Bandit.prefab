@@ -147,33 +147,18 @@ MonoBehaviour:
   attack_distance: 1.2
   moving_speed: 2
   timer: 3
-  left_limit: {fileID: 6370273953981292822}
-  right_limit: {fileID: 6370273952916316707}
   target: {fileID: 0}
   in_range: 0
   Hotzone: {fileID: 6370273953181404850}
   TriggerArea: {fileID: 6370273953935059659}
   isDeath: 0
-<<<<<<< Updated upstream
-  health: 0
-  _banditColliders:
-  - {fileID: 0}
-  attackPoint: {fileID: 0}
-  attackRadius: 0
-  playerLayer:
-    serializedVersion: 2
-    m_Bits: 0
-=======
   health: 100
   _banditColliders:
   - {fileID: 6370273952721475182}
   - {fileID: 6370273952807094433}
-  attackPoint: {fileID: 0}
-  attackRadius: 0.5
   playerLayer:
     serializedVersion: 2
     m_Bits: 1024
->>>>>>> Stashed changes
 --- !u!1001 &320079310753948691
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -467,10 +452,6 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
-    - target: {fileID: 1554434987402505724, guid: b5452378bb8f9f74abc7fc143bde7cb1, type: 3}
-      propertyPath: m_TagString
-      value: Enemy
-      objectReference: {fileID: 0}
     - target: {fileID: 1554434987402505725, guid: b5452378bb8f9f74abc7fc143bde7cb1, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -545,6 +526,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5452378bb8f9f74abc7fc143bde7cb1, type: 3}
+--- !u!1 &6370273952721475182 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1554434987402505724, guid: b5452378bb8f9f74abc7fc143bde7cb1, type: 3}
+  m_PrefabInstance: {fileID: 5617594065449368466}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6370273952721475183 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1554434987402505725, guid: b5452378bb8f9f74abc7fc143bde7cb1, type: 3}
@@ -617,7 +603,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 617609032164644668, guid: 23477779a19fae149914bc903db6dd00, type: 3}
   m_PrefabInstance: {fileID: 5833835304095752082}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &728722562
+--- !u!114 &1585447884
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
