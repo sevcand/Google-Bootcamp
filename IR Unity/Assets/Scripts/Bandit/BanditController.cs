@@ -12,8 +12,8 @@ public class BanditController : MonoBehaviour
     public float attack_distance;
     public float moving_speed;
     public float timer;
-    public Transform left_limit;
-    public Transform right_limit;
+   // public Transform left_limit;
+   // public Transform right_limit;
     [HideInInspector] public Transform target;
     [HideInInspector] public bool in_range;
     public GameObject Hotzone;
@@ -32,8 +32,8 @@ public class BanditController : MonoBehaviour
     private bool cooling;
     private float int_timer;
     [SerializeField] private GameObject[] _banditColliders;
-    [SerializeField] private Transform attackPoint;
-    [SerializeField] private float attackRadius;
+   // [SerializeField] private Transform attackPoint;
+   // [SerializeField] private float attackRadius;
     [SerializeField] private LayerMask playerLayer;
 
     #endregion
@@ -41,6 +41,7 @@ public class BanditController : MonoBehaviour
     private void Awake()
     {
         // SelectTarget();
+        target = gameObject.transform;
         int_timer = timer;
         anim = GetComponent<Animator>();
         health = 100f;
@@ -79,11 +80,14 @@ public class BanditController : MonoBehaviour
             DeathBandit();
         }
 
+    /*
         if (!InsideofLimits() && !in_range && !anim.GetCurrentAnimatorStateInfo(0).IsName("Attack_LightBandit"))
         {
             Debug.Log("select target çalıştı");
             //  SelectTarget();
         }
+
+    */
 
         if (in_range == false)
         {
@@ -219,11 +223,14 @@ public class BanditController : MonoBehaviour
 
     }
 
+    /*
     private bool InsideofLimits()
     {
         return transform.position.x > left_limit.position.x && transform.position.x < right_limit.position.x;
 
     }
+
+    */
 
     /* public void SelectTarget()
      {
@@ -264,6 +271,7 @@ public class BanditController : MonoBehaviour
         transform.eulerAngles = rotation;
     }
 
+/*
     private void OnDrawGizmos()
     {
         if (attackPoint == null)
@@ -273,4 +281,6 @@ public class BanditController : MonoBehaviour
         Gizmos.color = Color.blue;
         Gizmos.DrawWireSphere(attackPoint.position, attackRadius);
     }
+
+    */
 }
