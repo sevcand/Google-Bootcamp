@@ -208,11 +208,7 @@ public class HeroKnight : MonoBehaviour
             m_currentAttack++;
 
 
-<<<<<<< HEAD
             Attack1SoundEffect.Play();
-=======
-
->>>>>>> aadd7f021be4b549b0e46fa23b478975dadfa9dc
             if (m_currentAttack > 3)
                 m_currentAttack = 1;
 
@@ -234,22 +230,14 @@ public class HeroKnight : MonoBehaviour
         {
             m_animator.SetTrigger("Block");
             m_animator.SetBool("IdleBlock", true);
-<<<<<<< HEAD
             ShieldSoundEffect.Play();
-=======
-            isBlock = true;
->>>>>>> aadd7f021be4b549b0e46fa23b478975dadfa9dc
         }
 
         else if (Input.GetMouseButtonUp(1))
         {
             m_animator.SetBool("IdleBlock", false);
-<<<<<<< HEAD
-        
-=======
-            isBlock = false;
         }
->>>>>>> aadd7f021be4b549b0e46fa23b478975dadfa9dc
+        
 
         else if (Input.GetKeyDown("left shift") && !m_rolling && !m_isWallSliding)
         {
