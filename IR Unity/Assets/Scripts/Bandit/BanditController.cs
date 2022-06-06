@@ -36,7 +36,7 @@ public class BanditController : MonoBehaviour
     #endregion
 
     [Header("HEALTH")]
-    public float health ;
+    public float health;
 
     private void Awake()
     {
@@ -74,7 +74,7 @@ public class BanditController : MonoBehaviour
             StopAttack();
         }
 
-        if(health<=0)
+        if (health <= 0)
         {
             DeathBandit();
         }
@@ -108,15 +108,19 @@ public class BanditController : MonoBehaviour
         isDeath = true;
         StopAttack();
         anim.SetBool("isDeath", true);
-       // _banditColliders.SetActive(false);
-        
+        // _banditColliders.SetActive(false);
+
     }
 
     public void DecreaseHealth()
     {
-        health = health - damage ;
+        health = health - damage;
         // hurt animasyonunu tetikle
-        anim.SetTrigger("Hurt");
+        if (!isDeath)
+        {
+            anim.SetTrigger("Hurt");
+        }
+
     }
 
 

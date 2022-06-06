@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6370273954025322047}
   m_Layer: 9
   m_Name: Bandit
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -126,7 +126,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.48, y: 0.48}
+  m_Size: {x: 2, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
@@ -153,6 +153,10 @@ MonoBehaviour:
   in_range: 0
   Hotzone: {fileID: 6370273953181404850}
   TriggerArea: {fileID: 6370273953935059659}
+  damage: 25
+  isDeath: 0
+  _banditColliders: {fileID: 6370273952721475182}
+  health: 0
 --- !u!1001 &320079310753948691
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -516,6 +520,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5452378bb8f9f74abc7fc143bde7cb1, type: 3}
+--- !u!1 &6370273952721475182 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1554434987402505724, guid: b5452378bb8f9f74abc7fc143bde7cb1, type: 3}
+  m_PrefabInstance: {fileID: 5617594065449368466}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6370273952721475183 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1554434987402505725, guid: b5452378bb8f9f74abc7fc143bde7cb1, type: 3}
