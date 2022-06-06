@@ -119,24 +119,38 @@ Here, you can find the [Miro Scrum Board](https://miro.com/app/board/uXjVO2v4jX0
 *  **Possible Sprint Completion:** 208 Points
 *  **Backlog Orgnization and Story Choices:** Product Backlog is organized to detail every feature that is predicted to be implemented to the product by the end of the 3rd Sprint. Stories were based on how the product could be made more appealing to the user with graphics, animation, asset quality and so on.
 *  **Daily Scrum:** As stated at the Sprint #1 report and the Sprint #2 reports, Daily Scrums were conducted only on Slack (with the exception of few cases where Whatsapp was a means of communication with regards to push/pull requests, asset discussions and so on. It was decided to exclude the screenshots of these conversations from this report for a more formal outlook). The screenshots to said chats could be seen on the Miro Board.
-*  **Sprint Board Screenshots:** Below you can see the screenshots (1) the goal for the Sprint, (2) the circumstances at the end of the Sprint.
+*  **Sprint Board Screenshots:** Below you can see the screenshots of the (1) the goal for the Sprint, (2) the circumstances at the end of the Sprint.
 
 
-![Screenshot (68)](https://user-images.githubusercontent.com/95580142/171396315-85d9a3d8-f246-45ec-bb12-b3cd5d4b5385.png)
+![Screenshot (66)](https://user-images.githubusercontent.com/95580142/172262098-99716440-6139-4dc1-93f9-2fa772f35738.png)
 
 
-insert end of sprint ss
+![Screenshot (77)](https://user-images.githubusercontent.com/95580142/172262103-da4e7f2f-1bb9-4812-b4c3-b1037e19fef9.png)
 
-* **Product Backlog:** Below you can see the screenshot of the product backlog
+
+
+* **Product Backlog:** Below you can see the screenshots of the (1) the goal for the Product Backlog, (2) the circumstances at the end of the Bootcamp.
 
 
 ![Screenshot (67)](https://user-images.githubusercontent.com/95580142/171396287-9f442760-1a40-4fbf-aaa0-b1da019e248c.png)
 
 
+![Screenshot (78)](https://user-images.githubusercontent.com/95580142/172261606-12bc3373-1f25-4d0a-bca7-346a14ab9546.png)
+
+
+
 * **The status of the product as of the end of Sprint #3:** Below you can see screenshots from the product's the latest condition
 
 
-insert last state ss
+![Screenshot (79)](https://user-images.githubusercontent.com/95580142/172261430-d75ad44b-5b05-4936-a0e0-a5133ccb09f1.png)
+
+
+![Screenshot (80)](https://user-images.githubusercontent.com/95580142/172261963-c6fb554e-72b3-4a09-ba52-62f78c6c03d4.png)
+
+
+![Screenshot (81)](https://user-images.githubusercontent.com/95580142/172261968-08b35112-f0b8-46e9-bf16-ca81a76b6ac6.png)
+
+
 
 * **Sprint Review:** Due to the workload we are facing in the last sprint, we decided that it would be best to focus our efforts on an MVP for the Academy's review. However, we plan to continue to collaborate in the future to improve our skills through this project and on the tools of collaboration.
 
