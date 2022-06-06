@@ -19,6 +19,7 @@ public class BanditController : MonoBehaviour
     public GameObject Hotzone;
     public GameObject TriggerArea;
     [HideInInspector] public bool isDeath;
+    public float health;
 
 
     #endregion
@@ -31,11 +32,11 @@ public class BanditController : MonoBehaviour
     private bool cooling;
     private float int_timer;
     [SerializeField] private GameObject _banditColliders;
+    [SerializeField] private Transform attackPoint;
+    [SerializeField] private float attackRadius;
+    [SerializeField] private LayerMask playerLayer;
 
     #endregion
-
-    [Header("HEALTH")]
-    public float health;
 
     private void Awake()
     {
@@ -256,5 +257,15 @@ public class BanditController : MonoBehaviour
         }
 
         transform.eulerAngles = rotation;
+    }
+
+    private void OnDrawGizmos()
+    {
+        if (attackPoint == null)
+        {
+            return;
+        }
+        Gizmos.color = Color.blue;
+        Gizmos.DrawWireSphere(attackPoint.position, attackRadius);
     }
 }

@@ -63,17 +63,21 @@ public class HeroKnight : MonoBehaviour
 
         enemy.gameObject.GetComponentInParent<BanditController>().DecreaseHealth(attackDamage);
 
-       /* 
-        if (enemy.gameObject.CompareTag("Enemy"))
-        {
-            enemy.gameObject.GetComponentInParent<BanditController>().DecreaseHealth(attackDamage);
-        }
-        */
+        /* 
+         if (enemy.gameObject.CompareTag("Enemy"))
+         {
+             enemy.gameObject.GetComponentInParent<BanditController>().DecreaseHealth(attackDamage);
+         }
+         */
 
     }
 
     private void OnDrawGizmos()
     {
+        if (attackPoint == null)
+        {
+            return;
+        }
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(attackPoint, attackRadius);
     }
