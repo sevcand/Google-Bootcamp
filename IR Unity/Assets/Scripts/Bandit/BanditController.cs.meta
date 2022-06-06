@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 416e62ab959425c44aa6fae4a08d19e6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - left_limit: {instanceID: 0}
+  - right_limit: {instanceID: 0}
+  - target: {instanceID: 0}
+  - Hotzone: {fileID: 6635741820569381537, guid: 65d4d80e357ffa34fad8bf791acd912b, type: 3}
+  - TriggerArea: {fileID: 7925969285687022219, guid: 4d76386c85f72d44ab0f1d1080533ca2, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
