@@ -26,6 +26,9 @@ public class HeroKnight : MonoBehaviour {
     private float               m_rollDuration = 8.0f / 14.0f;
     private float               m_rollCurrentTime;
 
+    [Header("")]
+    [SerializeField] Transform attack;
+
 
 
     
@@ -39,6 +42,14 @@ public class HeroKnight : MonoBehaviour {
         m_wallSensorL1 = transform.Find("WallSensor_L1").GetComponent<Sensor_HeroKnight>();
         m_wallSensorL2 = transform.Find("WallSensor_L2").GetComponent<Sensor_HeroKnight>();
        
+    }
+
+    void Attack()
+    {
+        // player atak yapınca düşman hasar alacak
+
+        // alanı tara ve önünde düşman var mı bak
+       // Physics2D.OverlapCircle();
     }
 
     
@@ -126,6 +137,8 @@ public class HeroKnight : MonoBehaviour {
 
             
             m_timeSinceAttack = 0.0f;
+
+            Attack();
         }
 
         

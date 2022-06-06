@@ -6732,11 +6732,6 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
---- !u!1 &1843146343 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6370273952721475182, guid: 2c4930883f6477a4293dd38209ed7f6a, type: 3}
-  m_PrefabInstance: {fileID: 6370273952345228710}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1854049388
 GameObject:
   m_ObjectHideFlags: 0
@@ -7747,25 +7742,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6370273954025322046, guid: 2c4930883f6477a4293dd38209ed7f6a, type: 3}
-      propertyPath: m_Size.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6370273954025322046, guid: 2c4930883f6477a4293dd38209ed7f6a, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6370273954025322046, guid: 2c4930883f6477a4293dd38209ed7f6a, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6370273954025322047, guid: 2c4930883f6477a4293dd38209ed7f6a, type: 3}
-      propertyPath: damage
-      value: 25
-      objectReference: {fileID: 0}
-    - target: {fileID: 6370273954025322047, guid: 2c4930883f6477a4293dd38209ed7f6a, type: 3}
-      propertyPath: _banditColliders
-      value: 
-      objectReference: {fileID: 1843146343}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c4930883f6477a4293dd38209ed7f6a, type: 3}
