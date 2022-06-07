@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Hanci
   m_EditorClassIdentifier: 
   sentences:
-  - "Taze i\xE7eceklerim geldi"
-  - "Et fiyatlar\u0131na zam gelecek diyorlar. Ehehee"
-  - "Bug\xFCn yemeklerin yan\u0131nda bir bardak bira bedava"
+  - I've got the freshest food folk!
+  - Mark my words, you won't be finding these prices in butchers tomorow morning!
+  - I'll give you an ale with your meat, on the house!
+  - No barkeep in this town has better mead than me!

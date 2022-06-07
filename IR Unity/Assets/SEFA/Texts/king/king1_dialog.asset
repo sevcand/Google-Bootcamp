@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96f021576d3c3f845a0e0bc67769fda2, type: 3}
+  m_Name: king1_dialog
+  m_EditorClassIdentifier: 
+  npcName: KING
+  sentences:
+  - How dare you enter into my court in this state?!
+  - "mesela diyelim ki \xFC\xE7 c\xFCmle s\xF6yledi"
+  - "sonunda bizden yan\u0131t bekliyecek bir soru sordu"
+  answers:
+  - {fileID: 11400000, guid: 514b1c82d4cb7c442b72babdf4645e0a, type: 2}
+  - {fileID: 11400000, guid: 6a709d4eedef57c43a892602fa0aa3d7, type: 2}
+  - {fileID: 11400000, guid: 15b11b77351730141bbbd55f4fea381b, type: 2}

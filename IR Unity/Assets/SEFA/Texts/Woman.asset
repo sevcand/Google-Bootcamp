@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 072901cbdc8d55649862a7e32fad01ee, type: 3}
+  m_Name: Woman
+  m_EditorClassIdentifier: 
+  sentences:
+  - I believe my brother served with you my lord.
+  - Would you care to take a break from your duties to see me to the next town safely?
+  - We are all safer with honorable men like you here, in our humble town.
+  - Your armor isn't what makes you strong, it's what's within my good sir...

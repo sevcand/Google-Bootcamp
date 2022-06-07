@@ -29,9 +29,9 @@ public class PublicNPCController : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             // listeden rastgele bir cümle seç ve göster.
-            int DialogueVisibleRandom = Random.Range(0, 2);
+            //int DialogueVisibleRandom = Random.Range(0, 2);
 
-            if (DialogueVisibleRandom == 1 && isReadyForNewSentence)
+            if (isReadyForNewSentence)
             {
                 string sentence = RandomSentence();
                 Debug.Log(sentence);
